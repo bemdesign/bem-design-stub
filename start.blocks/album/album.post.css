@@ -2,4 +2,7 @@
 	min-height: 456px;
 	box-sizing: border-box;
 	background: var(--color-default);
+	&__info {
+		text-align: center;
+	}
 }

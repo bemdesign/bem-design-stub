@@ -709,7 +709,7 @@ module.exports = {
 																		},
 																		{
 																			block: 'input',
-																			mods: { theme: 'islands', width: 'available', size: 'xl'},
+																			mods: { theme: 'islands', width: 'available', size: 'l'},
 																			val: '3023281048110009'
 																		}
 																	]
@@ -725,7 +725,7 @@ module.exports = {
 																		},
 																		{
 																			block: 'input',
-																			mods: { theme: 'islands', width: 'available', size: 'xl'},
+																			mods: { theme: 'islands', width: 'available', size: 'l'},
 																			val: '6-10'
 																		}
 																	]
@@ -741,7 +741,7 @@ module.exports = {
 																		},
 																		{
 																			block: 'input',
-																			mods: { theme: 'islands', width: 'available', size: 'xl'},
+																			mods: { theme: 'islands', width: 'available', size: 'l'},
 																			val: 'RUB'
 																		}
 																	]
@@ -963,52 +963,6 @@ module.exports = {
 															]
 														}
 
-													]
-												}
-											]
-										},
-										{
-											elem: 'fraction',
-											elemMods: { col: '4'},
-											content: [
-												{
-													block: 'payment',
-													mix: { block: 'unit' },
-													content: [
-														{
-															block: 'text',
-															mods: { view: 'inverse', 'size': 'm' },
-															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.payment (success)'
-														},
-														{
-															block: 'text',
-															mods: { view: 'alert', 'size': 'm' },
-															content: '.pt-form'
-														}
-													]
-												}
-											]
-										},
-										{
-											elem: 'fraction',
-											elemMods: { col: '4'},
-											content: [
-												{
-													block: 'payment',
-													mix: { block: 'unit' },
-													content: [
-														{
-															block: 'text',
-															mods: { view: 'inverse', 'size': 'm' },
-															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.payment (fail)'
-														},
-														{
-															block: 'text',
-															mods: { view: 'alert', 'size': 'm' },
-															content: '.pt-form'
-														}
 													]
 												}
 											]
@@ -1482,30 +1436,35 @@ module.exports = {
 													mix: { block: 'decorator', mods: { 'space-a': 'l' } },
 													content: [
 														{
-															block: 'image',
-															mix: [
-																{ block: 'decorator', mods: { 'indent-h': 'auto', 'indent-b': 'xs' } },
-																{ block: 'playlist-cover', mods: { size: 'big' } }
-															],
-															url: '/assets/bem-starter-kit/music-album-cover.png',
-															width: 100
-														},
-														{
-															block: 'text',
-															mods: { view: 'primary', size: 'xxl', weight: 'bold', align: 'center' },
-															content: 'Damn'
-														},
-														{
-															block: 'text',
-															mix: { block: 'decorator', mods: { 'indent-b': 'xl' } },
-															mods: { view: 'link', size: 's', weight: 'semibold', align: 'center' },
-															content: 'Kendrick Lamar'
-														},
-														{
-															block: 'button',
-															mix: { block: 'text', mods: { align: 'center' } },
-															mods: { theme: 'islands', size: 'm', view: 'action' },
-															text: 'Shuffle play'
+															elem: 'info',
+															content: [
+																{
+																	block: 'image',
+																	mix: [
+																		{ block: 'decorator', mods: { 'indent-h': 'auto', 'indent-b': 'xs' } },
+																		{ block: 'playlist-cover', mods: { size: 'big' } }
+																	],
+																	url: '/assets/bem-starter-kit/music-album-cover.png',
+																	width: 100
+																},
+																{
+																	block: 'text',
+																	mods: { view: 'primary', size: 'xxl', weight: 'bold', align: 'center' },
+																	content: 'Damn'
+																},
+																{
+																	block: 'text',
+																	mix: { block: 'decorator', mods: { 'indent-b': 'xl' } },
+																	mods: { view: 'link', size: 's', weight: 'semibold', align: 'center' },
+																	content: 'Kendrick Lamar'
+																},
+																{
+																	block: 'button',
+																	mix: { block: 'text', mods: { align: 'center' } },
+																	mods: { theme: 'islands', size: 'm', view: 'action' },
+																	text: 'Shuffle play'
+																}
+															]
 														},
 														{
 															elem: 'playlist',
@@ -2063,7 +2022,6 @@ module.exports = {
 																}
 															]
 														},
-
 														{
 															elem: 'item',
 															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
@@ -2105,7 +2063,6 @@ module.exports = {
 																}
 															]
 														},
-
 														{
 															elem: 'item',
 															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
@@ -2270,7 +2227,6 @@ module.exports = {
 																}
 															]
 														},
-
 														{
 															elem: 'item',
 															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
@@ -2312,7 +2268,6 @@ module.exports = {
 																}
 															]
 														},
-
 														{
 															elem: 'item',
 															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
@@ -2354,7 +2309,6 @@ module.exports = {
 																}
 															]
 														},
-
 														{
 															elem: 'item',
 															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
@@ -2396,7 +2350,6 @@ module.exports = {
 																}
 															]
 														},
-
 														{
 															elem: 'item',
 															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
@@ -3012,29 +2965,6 @@ module.exports = {
 													]
 												}
 											]
-										},
-										{
-											elem: 'fraction',
-											elemMods: { col: '4'},
-											content: [
-												{
-													block: 'articles',
-													mix: { block: 'unit' },
-													content: [
-														{
-															block: 'text',
-															mods: { view: 'inverse', 'size': 'm' },
-															mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-															content: '.articles'
-														},
-														{
-															block: 'text',
-															mods: { view: 'alert', 'size': 'm' },
-															content: '.pt-list'
-														}
-													]
-												}
-											]
 										}
 									]
 								}
@@ -3310,19 +3240,6 @@ module.exports = {
 																}
 															]
 														}
-													]
-												}
-											]
-										},
-										{
-											elem: 'fraction',
-											elemMods: { col: '4'},
-											content: [
-												{
-													block: 'comment',
-													mix: { block: 'unit' },
-													content: [
-
 													]
 												}
 											]
@@ -3780,7 +3697,7 @@ module.exports = {
 																	elemMods: { 'indent-b': 'l' },
 																	content: {
 																		block: 'input',
-																		mods: { theme: 'islands', width: 'available', size: 'xl'},
+																		mods: { theme: 'islands', width: 'available', size: 'l'},
 																		placeholder: 'Username'
 																	}
 																},
@@ -3789,7 +3706,7 @@ module.exports = {
 																	elemMods: { 'indent-b': 'xl' },
 																	content: {
 																		block: 'input',
-																		mods: { theme: 'islands', width: 'available', size: 'xl'},
+																		mods: { theme: 'islands', width: 'available', size: 'l'},
 																		placeholder: 'Password'
 																	}
 																},
@@ -3860,7 +3777,7 @@ module.exports = {
 																	elemMods: { 'indent-b': 'l' },
 																	content: {
 																		block: 'input',
-																		mods: { theme: 'islands', width: 'available', size: 'xl'},
+																		mods: { theme: 'islands', width: 'available', size: 'l'},
 																		placeholder: 'Username'
 																	}
 																},
@@ -3869,7 +3786,7 @@ module.exports = {
 																	elemMods: { 'indent-b': 'xl' },
 																	content: {
 																		block: 'input',
-																		mods: { theme: 'islands', width: 'available', size: 'xl'},
+																		mods: { theme: 'islands', width: 'available', size: 'l'},
 																		placeholder: 'Password'
 																	}
 																},
@@ -3940,7 +3857,7 @@ module.exports = {
 																	elemMods: { 'indent-b': 'l' },
 																	content: {
 																		block: 'input',
-																		mods: { theme: 'islands', width: 'available', size: 'xl' },
+																		mods: { theme: 'islands', width: 'available', size: 'l' },
 																		placeholder: 'Username'
 																	}
 																},
@@ -4098,7 +4015,7 @@ module.exports = {
 														},
 														{
 															elem: 'item',
-															mix: [{ block: 'pt-list', elem: 'item', elemMods: { 'space-a': 'm' }}, { block: 'decorator', mods: { 'indent-b': 's' } }],
+															mix: [{ block: 'pt-list', elem: 'item', elemMods: { 'space-a': 'm' }}],
 															content: [
 																{
 																	elem: 'header',
@@ -4161,7 +4078,7 @@ module.exports = {
 																},
 																{
 																	elem: 'item',
-																	mix: [{ block: 'pt-list', elem: 'item', elemMods: { border: 'top', 'space-t': 's' }}, { block: 'decorator', mods: { 'indent-b': 's' } }],
+																	mix: [{ block: 'pt-list', elem: 'item', elemMods: { border: 'top', 'space-t': 's' }} ],
 																	content: [
 																		{
 																			elem: 'header',
@@ -4469,7 +4386,7 @@ module.exports = {
 																{
 																	elem: 'type',
 																	mix: [ { block: 'text', mods: { view: 'inverse', size: 'xxl', weight: 'bold', align: 'center' } }, { block: 'decorator', mods: { 'indent-b': 'xxs' } } ],
-																	content: 'Standart'
+																	content: 'Standard'
 																},
 																{
 																	elem: 'type',
@@ -4520,7 +4437,6 @@ module.exports = {
 																				{
 																					block: 'pt-icon-plus',
 																					mods: { 'vertical-align': 'center' },
-																					mix: { block: 'decorator', mods: { 'indent-r': 'l' } },
 																					content: [
 																						{
 																							elem: 'icon',
@@ -4549,7 +4465,6 @@ module.exports = {
 																				{
 																					block: 'pt-icon-plus',
 																					mods: { 'vertical-align': 'center' },
-																					mix: { block: 'decorator', mods: { 'indent-r': 'l' } },
 																					content: [
 																						{
 																							elem: 'icon',
@@ -4659,7 +4574,6 @@ module.exports = {
 																				{
 																					block: 'pt-icon-plus',
 																					mods: { 'vertical-align': 'center' },
-																					mix: { block: 'decorator', mods: { 'indent-r': 'l' } },
 																					content: [
 																						{
 																							elem: 'icon',
@@ -4688,7 +4602,6 @@ module.exports = {
 																				{
 																					block: 'pt-icon-plus',
 																					mods: { 'vertical-align': 'center' },
-																					mix: { block: 'decorator', mods: { 'indent-r': 'l' } },
 																					content: [
 																						{
 																							elem: 'icon',
@@ -4825,7 +4738,6 @@ module.exports = {
 																				{
 																					block: 'pt-icon-plus',
 																					mods: { 'vertical-align': 'center' },
-																					mix: { block: 'decorator', mods: { 'indent-r': 'l' } },
 																					content: [
 																						{
 																							elem: 'icon',

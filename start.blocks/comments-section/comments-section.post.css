@@ -1,6 +1,8 @@
 .comments-section {
-  &__header {
-    display: flex;
-    justify-content: space-between;
-  }
+	min-height: 456px;
+	box-sizing: border-box;
+	&__header {
+		display: flex;
+		justify-content: space-between;
+	}
 }

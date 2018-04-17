@@ -1,4 +1,6 @@
 .friendlist {
+	min-height: 456px;
+	box-sizing: border-box;
 	&__group {
 		display: flex;
 		flex-flow: row wrap;

@@ -1,5 +1,6 @@
 .informer {
-  min-height: 480px;
+  min-height: 456px;
+  box-sizing: border-box;
   &_view {
     &_alert {
       background-color: var(--color-alert);

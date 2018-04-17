@@ -1,7 +1,9 @@
 .answer {
-  background: var(--color-link);
+	min-height: 456px;
+	box-sizing: border-box;
+ 	background: var(--color-link);
 
-  &__logo {
-    opacity: 0.3;
-  }
+	&__logo {
+		opacity: 0.3;
+	}
 }

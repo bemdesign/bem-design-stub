@@ -1,5 +1,6 @@
 .feed {
-
+	min-height: 456px;
+	box-sizing: border-box;
 	&__item {
 		background-color: var(--color-default);
 	}

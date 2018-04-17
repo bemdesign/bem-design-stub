@@ -27,7 +27,9 @@ module.exports = {
 		{
 			block: 'tpl-layout',
 			mix: { block: 'decorator',mods: { 'space-v': 'xxxxxxl' } },
-			attrs: { style: 'background: rgba(0,30,80,.1)' },
+			attrs: {
+				'style': 'background: rgba(0,0,0,0.04);'
+			},
 			content: [
 
 				/* История */
@@ -1215,14 +1217,9 @@ module.exports = {
 															mix: { block: 'pt-card', elem: 'content' },
 															content: [
 																{
-																	elem: 'photo',
+																	block: 'image',
 																	mix: { block: 'pt-card', elem: 'image', elemMods: { size: 'cover' } },
-																	content: [
-																		{
-																			block: 'image',
-																			url: '/assets/bem-starter-kit/uncharted_horizontal.jpg'
-																		}
-																	]
+																	url: '/assets/bem-starter-kit/uncharted_horizontal.jpg'
 																}
 															]
 														},
@@ -1478,9 +1475,6 @@ module.exports = {
 										},
 										{
 											elem: 'fraction',
-											attrs: {
-												'style': 'background-color: var(--color-default);'
-											},
 											elemMods: { col: '4'},
 											content: [
 												{
@@ -1503,7 +1497,7 @@ module.exports = {
 														},
 														{
 															block: 'text',
-															mix: { block: 'decorator', mods: { 'indent-b': 'xxl' } },
+															mix: { block: 'decorator', mods: { 'indent-b': 'xl' } },
 															mods: { view: 'link', size: 's', weight: 'semibold', align: 'center' },
 															content: 'Kendrick Lamar'
 														},
@@ -1511,7 +1505,7 @@ module.exports = {
 															block: 'button',
 															mix: { block: 'text', mods: { align: 'center' } },
 															mods: { theme: 'islands', size: 'm', view: 'action' },
-															text: 'SHUFFLE PLAY'
+															text: 'Shuffle play'
 														},
 														{
 															elem: 'playlist',
@@ -1654,9 +1648,6 @@ module.exports = {
 										},
 										{
 											elem: 'fraction',
-											attrs: {
-												'style': 'background-color: var(--color-ghost);'
-											},
 											elemMods: { col: '4'},
 											content: [
 												{
@@ -3014,12 +3005,9 @@ module.exports = {
 															]
 														},
 														{
-															elem: 'elem',
+															block: 'image',
 															mix: { block: 'pt-card', elem: 'image', elemMods: { size: 'cover' } },
-															content: {
-																block: 'image',
-																url: '/assets/bem-starter-kit/article-preview.png'
-															}
+															url: '/assets/bem-starter-kit/article-preview.png'
 														}
 													]
 												}
@@ -3082,12 +3070,12 @@ module.exports = {
 													content: [
 														{
 															elem: 'content',
-															mix: { block: 'pt-card', elem: 'content', elemMods: { 'space-h': 'xxl', 'space-v': 'xxxxl' } },
+															mix: { block: 'pt-card', elem: 'content', elemMods: { 'space-a': 'xl' } },
 															content: [
 																{
 																	block: 'pt-icon-plus',
-																	mix: { block: 'decorator', mods: { 'indent-b': 'xl' } },
 																	mods: { 'vertical-align': 'center' },
+																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
 																	content: [
 																		{
 																			elem: 'icon',
@@ -3136,7 +3124,7 @@ module.exports = {
 														},
 														{
 															elem: 'logo',
-															mix: { block: 'pt-card', elem: 'footer', elemMods: { 'space-b': 'l', 'space-h': 'xxl' } },
+															mix: { block: 'pt-card', elem: 'footer', elemMods: { 'space-b': 'l', 'space-a': 'xl' } },
 															content: {
 																block: 'social-icon',
 																mods: { size: 'm', clear: 'twitter-inverse' }
@@ -3157,11 +3145,6 @@ module.exports = {
 													block: 'comments',
 													mix: { block: 'decorator', mods: { 'space-a': 'l' } },
 													content: [
-														{
-															block: 'icon',
-															mix: { block: 'decorator', mods: { 'indent-b': 'xxxl' } },
-															mods: { 'arrow-left': 's-primary' }
-														},
 														{
 															block: 'text',
 															mix: { block: 'decorator', mods: { 'indent-b': 'xs' } },
@@ -3228,9 +3211,15 @@ module.exports = {
 																	]
 																},
 																{
-																	block: 'textarea',
-																	mods: { theme: 'islands', size: 'm' },
-																	placeholder : 'Ваш текст должен быть здесь'
+																	elem: 'field',
+																	mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
+																	content: [
+																		{
+																			block: 'textarea',
+																			mods: { theme: 'islands', size: 'm', width: 'available' },
+																			placeholder : 'Ваш текст должен быть здесь'
+																		}
+																	]
 																},
 																{
 																	block: 'comment',
@@ -3434,10 +3423,10 @@ module.exports = {
 															content: {
 																block: 'button',
 																mods: {
-													        theme: 'islands',
-																	size: 'xl',
+															        theme: 'islands',
+																	size: 'l',
 																	width: 'available'
-														    },
+														    	},
 																text: 'DONE'
 															}
 														}
@@ -3517,10 +3506,10 @@ module.exports = {
 															content: {
 																block: 'button',
 																mods: {
-													        theme: 'islands',
-																	size: 'xl',
+													        	theme: 'islands',
+																	size: 'l',
 																	width: 'available'
-														    },
+														    	},
 																text: 'DONE'
 															}
 														}
@@ -3584,7 +3573,7 @@ module.exports = {
 																block: 'button',
 																mods: {
 																	theme: 'islands',
-																	size: 'xl',
+																	size: 'l',
 																	width: 'available'
 																},
 																text: 'DONE'
@@ -3667,12 +3656,9 @@ module.exports = {
 															]
 														},
 														{
-															elem: 'image',
+															block: 'image',
 															mix: { block: 'pt-card', elem: 'image' },
-															content: {
-																block: 'image',
-																url: '/assets/bem-starter-kit/ecommerce-product.png'
-															}
+															url: '/assets/bem-starter-kit/ecommerce-product.png'
 														}
 													]
 												}
@@ -3726,12 +3712,9 @@ module.exports = {
 															]
 														},
 														{
-															elem: 'image',
+															block: 'image',
 															mix: { block: 'pt-card', elem: 'image' },
-															content: {
-																block: 'image',
-																url: '/assets/bem-starter-kit/ecommerce-product.png'
-															}
+															url: '/assets/bem-starter-kit/ecommerce-product.png'
 														}
 													]
 												}

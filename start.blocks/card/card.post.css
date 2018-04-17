@@ -1,5 +1,4 @@
-.history {
-	min-height: 456px;
+.card {
 	box-sizing: border-box;
 	background: var(--color-default);
 }

@@ -1,4 +1,6 @@
 .payment {
+	min-height: 456px;
+	box-sizing: border-box;
 	&__header {
 		background: var(--color-default);
 	}

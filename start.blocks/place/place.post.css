@@ -1,5 +1,7 @@
 .place {
 	position: relative;
+	min-height: 456px;
+	box-sizing: border-box;
 	&__type {
 		opacity: 0.7;
 	}

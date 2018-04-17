@@ -1,4 +1,6 @@
 .activities {
+	min-height: 456px;
+	box-sizing: border-box;
 	&__item {
 		align-items: center;
 	}

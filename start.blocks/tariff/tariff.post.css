@@ -1,5 +1,6 @@
-.tariff {
-	height: 456px; 
+.tariff { 
+	min-height: 456px;
+	box-sizing: border-box;
 	&__sale {
 		line-height: 80px;
 		font-size: 80px;

@@ -1,6 +1,6 @@
 .dots {
 	text-align: center;
-
+	box-sizing: border-box;
 	&__wrapper {
 		margin: 0 auto;
 		display: flex;

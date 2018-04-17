@@ -1,4 +1,6 @@
 .meetup {
+	min-height: 456px;
+	box-sizing: border-box;
 	&__photo {
 		height: 170px;
 		overflow: hidden;

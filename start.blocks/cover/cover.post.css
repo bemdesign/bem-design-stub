@@ -1,7 +1,8 @@
 .cover {
-	height: 456px; 
 	overflow: hidden;
 	padding-top: 128px;
+	min-height: 456px;
+	box-sizing: border-box;
 	&__header {
 		height: 128px;
 		background-color: #0070F0;

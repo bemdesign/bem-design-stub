@@ -1,4 +1,6 @@
 .digital-product {
+	min-height: 456px;
+	box-sizing: border-box;
 	&__cover {
 		height: 160px;
 		overflow: hidden;

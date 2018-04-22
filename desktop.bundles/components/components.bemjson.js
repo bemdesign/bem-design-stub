@@ -56,7 +56,7 @@ module.exports = {
 																view: 'action',
 																width: 'available'
 															},
-															text: 'Купить сейчас!'
+															text: 'Buy now!'
 														}
 													]
 												},
@@ -71,7 +71,7 @@ module.exports = {
 																size: 'm',
 																width: 'available'
 															},
-															text: 'Размер m'
+															text: 'Default'
 														}
 													]
 												},
@@ -108,7 +108,7 @@ module.exports = {
 																view: 'pseudo',
 																width: 'available'
 															},
-															text: 'У меня прозрачный фон'
+															text: 'Borderless'
 														}
 													]
 												},
@@ -133,15 +133,15 @@ module.exports = {
 													    options: [
 													        {
 													            val: 1,
-													            text: 'Доклад'
+													            text: 'Report'
 													        },
 													        {
 													            val: 2,
-													            text: 'Мастер-класс'
+													            text: 'Workshop'
 													        },
 													        {
 													            val: 3,
-													            text: 'Круглый стол'
+													            text: 'Round-table conference'
 													        }
 													    ]
 														}
@@ -165,15 +165,15 @@ module.exports = {
 															options: [
 																	{
 																			val: 1,
-																			text: 'Доклад'
+																			text: 'Report'
 																	},
 																	{
 																			val: 2,
-																			text: 'Мастер-класс наоборот: вы пишете БЭМ-проект, а мы подсказываем'
+																			text: 'Workshop'
 																	},
 																	{
 																			val: 3,
-																			text: 'Круглый стол'
+																			text: 'Round-table conference'
 																	}
 															]
 														}
@@ -195,7 +195,7 @@ module.exports = {
 																width: 'available',
 																'has-clear': true,
 															},
-															val: 'Привет!'
+															val: 'Hello!'
 														}
 													]
 												},
@@ -210,7 +210,7 @@ module.exports = {
 																width: 'available',
 																disabled: true
 															},
-															placeholder: 'Введите имя'
+															placeholder: 'Enter your name'
 														}
 													]
 												}
@@ -229,7 +229,7 @@ module.exports = {
 																size: 'm',
 																width: 'available'
 															},
-															placeholder: 'Ваш текст должен быть здесь'
+															placeholder: 'Your text should be here'
 														}
 													]
 												},
@@ -244,7 +244,7 @@ module.exports = {
 																disabled: true,
 																width: 'available'
 															},
-															placeholder: 'Ваш текст должен быть здесь'
+															placeholder: 'Your text should be here'
 														}
 													]
 												}
@@ -266,7 +266,7 @@ module.exports = {
 															},
 															name: 'name1',
 															val: 'val_1',
-															text: 'Конфеты'
+															text: 'Candies'
 														}
 													]
 												},
@@ -281,7 +281,7 @@ module.exports = {
 															},
 															name: 'name1',
 															val: 'val_1',
-															text: 'Конфеты'
+															text: 'Candies'
 														}
 													]
 												},
@@ -297,7 +297,7 @@ module.exports = {
 															},
 															name: 'name1',
 															val: 'val_0',
-															text: 'Конфеты закончились'
+															text: 'Candies'
 														}
 													]
 												}
@@ -318,7 +318,7 @@ module.exports = {
 															},
 															name: 'radio-islands',
 															val: 'BEMHTML',
-															text: 'Использовать BEMHTML'
+															text: 'Use BEMHTML'
 														}
 													]
 												},
@@ -333,7 +333,7 @@ module.exports = {
 															},
 															name: 'radio-islands',
 															val: 'BEMHTML',
-															text: 'Использовать BEMHTML'
+															text: 'Use BEMHTML'
 														}
 													]
 												},
@@ -349,7 +349,7 @@ module.exports = {
 															},
 															name: 'radio-islands',
 															val: 'BEMHTML',
-															text: 'Использовать BEMHTML'
+															text: 'Use BEMHTML'
 														}
 													]
 												}
@@ -406,7 +406,7 @@ module.exports = {
 																view: 'action',
 																width: 'available'
 															},
-															text: 'Купить сейчас!'
+															text: 'Buy now!'
 														}
 													]
 												},
@@ -421,7 +421,7 @@ module.exports = {
 																size: 'm',
 																width: 'available'
 															},
-															text: 'Размер m'
+															text: 'Default'
 														}
 													]
 												},
@@ -458,7 +458,7 @@ module.exports = {
 																view: 'pseudo',
 																width: 'available'
 															},
-															text: 'У меня прозрачный фон'
+															text: 'Borderless'
 														}
 													]
 												},
@@ -483,15 +483,15 @@ module.exports = {
 															options: [
 																	{
 																			val: 1,
-																			text: 'Доклад'
+																			text: 'Report'
 																	},
 																	{
 																			val: 2,
-																			text: 'Мастер-класс'
+																			text: 'Workshop'
 																	},
 																	{
 																			val: 3,
-																			text: 'Круглый стол'
+																			text: 'Round-table conference'
 																	}
 															]
 														}
@@ -515,15 +515,15 @@ module.exports = {
 															options: [
 																	{
 																			val: 1,
-																			text: 'Доклад'
+																			text: 'Report'
 																	},
 																	{
 																			val: 2,
-																			text: 'Мастер-класс наоборот: вы пишете БЭМ-проект, а мы подсказываем'
+																			text: 'Workshop'
 																	},
 																	{
 																			val: 3,
-																			text: 'Круглый стол'
+																			text: 'Round-table conference'
 																	}
 															]
 														}
@@ -545,7 +545,7 @@ module.exports = {
 																width: 'available',
 																'has-clear': true,
 															},
-															val: 'Привет!'
+															val: 'Hello!'
 														}
 													]
 												},
@@ -560,7 +560,7 @@ module.exports = {
 																width: 'available',
 																disabled: true
 															},
-															placeholder: 'Введите имя'
+															placeholder: 'Enter your name'
 														}
 													]
 												}
@@ -579,7 +579,7 @@ module.exports = {
 																size: 'm',
 																width: 'available'
 															},
-															placeholder: 'Ваш текст должен быть здесь'
+															placeholder: 'Your text should be here'
 														}
 													]
 												},
@@ -594,7 +594,7 @@ module.exports = {
 																disabled: true,
 																width: 'available'
 															},
-															placeholder: 'Ваш текст должен быть здесь'
+															placeholder: 'Your text should be here'
 														}
 													]
 												}
@@ -616,7 +616,7 @@ module.exports = {
 															},
 															name: 'name1',
 															val: 'val_1',
-															text: 'Конфеты'
+															text: 'Candies'
 														}
 													]
 												},
@@ -631,7 +631,7 @@ module.exports = {
 															},
 															name: 'name1',
 															val: 'val_1',
-															text: 'Конфеты'
+															text: 'Candies'
 														}
 													]
 												},
@@ -647,7 +647,7 @@ module.exports = {
 															},
 															name: 'name1',
 															val: 'val_0',
-															text: 'Конфеты закончились'
+															text: 'Candies'
 														}
 													]
 												}
@@ -668,7 +668,7 @@ module.exports = {
 															},
 															name: 'radio-islands',
 															val: 'BEMHTML',
-															text: 'Использовать BEMHTML'
+															text: 'Use BEMHTML'
 														}
 													]
 												},
@@ -683,7 +683,7 @@ module.exports = {
 															},
 															name: 'radio-islands',
 															val: 'BEMHTML',
-															text: 'Использовать BEMHTML'
+															text: 'Use BEMHTML'
 														}
 													]
 												},
@@ -699,7 +699,7 @@ module.exports = {
 															},
 															name: 'radio-islands',
 															val: 'BEMHTML',
-															text: 'Использовать BEMHTML'
+															text: 'Use BEMHTML'
 														}
 													]
 												}
@@ -755,7 +755,7 @@ module.exports = {
 																view: 'action',
 																width: 'available'
 															},
-															text: 'Купить сейчас!'
+															text: 'Buy now!'
 														}
 													]
 												},
@@ -770,7 +770,7 @@ module.exports = {
 																size: 'm',
 																width: 'available'
 															},
-															text: 'Размер m'
+															text: 'Default'
 														}
 													]
 												},
@@ -807,7 +807,7 @@ module.exports = {
 																view: 'pseudo',
 																width: 'available'
 															},
-															text: 'У меня прозрачный фон'
+															text: 'Borderless'
 														}
 													]
 												},
@@ -832,15 +832,15 @@ module.exports = {
 															options: [
 																	{
 																			val: 1,
-																			text: 'Доклад'
+																			text: 'Report'
 																	},
 																	{
 																			val: 2,
-																			text: 'Мастер-класс'
+																			text: 'Workshop'
 																	},
 																	{
 																			val: 3,
-																			text: 'Круглый стол'
+																			text: 'Round-table conference'
 																	}
 															]
 														}
@@ -864,15 +864,15 @@ module.exports = {
 															options: [
 																	{
 																			val: 1,
-																			text: 'Доклад'
+																			text: 'Report'
 																	},
 																	{
 																			val: 2,
-																			text: 'Мастер-класс наоборот: вы пишете БЭМ-проект, а мы подсказываем'
+																			text: 'Workshop'
 																	},
 																	{
 																			val: 3,
-																			text: 'Круглый стол'
+																			text: 'Round-table conference'
 																	}
 															]
 														}
@@ -894,7 +894,7 @@ module.exports = {
 																width: 'available',
 																'has-clear': true,
 															},
-															val: 'Привет!'
+															val: 'Hello!'
 														}
 													]
 												},
@@ -909,7 +909,7 @@ module.exports = {
 																width: 'available',
 																disabled: true
 															},
-															placeholder: 'Введите имя'
+															placeholder: 'Enter your name'
 														}
 													]
 												}
@@ -928,7 +928,7 @@ module.exports = {
 																size: 'm',
 																width: 'available'
 															},
-															placeholder: 'Ваш текст должен быть здесь'
+															placeholder: 'Your text should be here'
 														}
 													]
 												},
@@ -943,7 +943,7 @@ module.exports = {
 																disabled: true,
 																width: 'available'
 															},
-															placeholder: 'Ваш текст должен быть здесь'
+															placeholder: 'Your text should be here'
 														}
 													]
 												}
@@ -965,7 +965,7 @@ module.exports = {
 															},
 															name: 'name1',
 															val: 'val_1',
-															text: 'Конфеты'
+															text: 'Candies'
 														}
 													]
 												},
@@ -980,7 +980,7 @@ module.exports = {
 															},
 															name: 'name1',
 															val: 'val_1',
-															text: 'Конфеты'
+															text: 'Candies'
 														}
 													]
 												},
@@ -996,7 +996,7 @@ module.exports = {
 															},
 															name: 'name1',
 															val: 'val_0',
-															text: 'Конфеты закончились'
+															text: 'Candies'
 														}
 													]
 												}
@@ -1017,7 +1017,7 @@ module.exports = {
 															},
 															name: 'radio-islands',
 															val: 'BEMHTML',
-															text: 'Использовать BEMHTML'
+															text: 'Use BEMHTML'	
 														}
 													]
 												},
@@ -1032,7 +1032,7 @@ module.exports = {
 															},
 															name: 'radio-islands',
 															val: 'BEMHTML',
-															text: 'Использовать BEMHTML'
+															text: 'Use BEMHTML'
 														}
 													]
 												},
@@ -1048,7 +1048,7 @@ module.exports = {
 															},
 															name: 'radio-islands',
 															val: 'BEMHTML',
-															text: 'Использовать BEMHTML'
+															text: 'Use BEMHTML'
 														}
 													]
 												}

@@ -7,7 +7,6 @@ module.exports = {
 		{ elem: 'meta', attrs: { name: 'description', content: '' } },
 		{ elem: 'meta', attrs: { name: 'viewport', content: 'width=device-width, initial-scale=1' } },
 		{ elem: 'css', url: 'bem-starter-kit.min.css' },
-		{ elem: 'css', url: '/assets/ibm-type/css/ibm-type.css' },
 		{ elem: 'js', url: 'https://code.jquery.com/jquery-3.2.1.js' },
 	],
 	scripts: [{ elem: 'js', url: 'bem-starter-kit.min.js' }],
@@ -15,7 +14,7 @@ module.exports = {
 	mix: [
 		{
 			block: 'theme',
-			mods: { color: 'liquid-default', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'ibm' }
+			mods: { color: 'liquid-default', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'museo' }
 		},
 		{
 			block: 'component',
@@ -54,16 +53,18 @@ module.exports = {
 											content: [
 												{
 													block: 'history',
-													mix: { block: 'pt-list', mods: { view: 'default' } },
-													attrs: { style: 'height: 456px;' },
+													mix: [
+														{ block: 'decorator', mods: { 'space-t': 'xxxxl', 'space-h': 'l', 'space-b': 'l' } },
+														{ block: 'pt-list', mods: { view: 'default' } },
+													],
 													content: [
 														{
 															elem: 'header',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-h': 'l', 'space-v': 'l' } },
+															mix: { block: 'decorator', mods: { 'space-b': 'xxl' } },
 															content: [
 																{
 																	block: 'text',
-																	mods: { size: 'xxl', view: 'primary', weight: 'bold' },
+																	mods: { size: 'xxxl', view: 'primary', weight: 'black' },
 																	content: 'History'
 																}
 															]
@@ -73,22 +74,17 @@ module.exports = {
 															content: [
 																{
 																	elem: 'section',
-																	mix: { block: 'pt-list', elem: 'item', elemMods: { 'indent-b': 'xl' } },
+																	mix: { block: 'pt-list', elem: 'item', elemMods: { 'indent-b': 'xxl' } },
 																	content: [
 																		{
-																			elem: 'subtitle',
-																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-h': 'l', 'space-v': 'xs' } },
-																			content: [
-																				{
-																					block: 'text',
-																					mods: { size: 's', view: 'secondary', transform: 'uppercase' },
-																					content: 'Today'
-																				}
-																			]
+																			block: 'text',
+																			mix: { block: 'decorator', mods: { 'space-b': 'm' } },
+																			mods: { size: 'l', view: 'primary', weight: 'black' },
+																			content: 'Today'
 																		},
 																		{
 																			elem: 'item',
-																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-h': 'l', 'space-v': 's', 'distribute': 'between', 'vertical-align': 'center' } },
+																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-b': 'l', 'distribute': 'between', 'vertical-align': 'center' } },
 																			content: [
 																				{
 																					block: 'pt-icon-plus',
@@ -102,21 +98,21 @@ module.exports = {
 																						},
 																						{
 																							elem: 'block',
-																							mix: { block: 'text', mods: { size: 'm' } },
+																							mix: { block: 'text', mods: { view: 'primary', size: 'm', weight: 'semibold' } },
 																							content: 'Tele2'
 																						}
 																					]
 																				},
 																				{
 																					block: 'text',
-																					mods: { size: 'm', view: 'primary', align: 'right' },
+																					mods: { size: 'm', view: 'primary', weight: 'semibold', align: 'right' },
 																					content: '- 500 ₽'
 																				}
 																			]
 																		},
 																		{
 																			elem: 'item',
-																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-h': 'l', 'space-v': 's', 'distribute': 'between', 'vertical-align': 'center' } },
+																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-b': 'l', 'distribute': 'between', 'vertical-align': 'center' } },
 																			content: [
 																				{
 																					block: 'pt-icon-plus',
@@ -130,21 +126,21 @@ module.exports = {
 																						},
 																						{
 																							elem: 'block',
-																							mix: { block: 'text', mods: { size: 'm' } },
+																							mix: { block: 'text', mods: { view: 'primary', size: 'm', weight: 'semibold' } },
 																							content: 'МТС'
 																						}
 																					]
 																				},
 																				{
 																					block: 'text',
-																					mods: { size: 'm', view: 'primary', align: 'right' },
+																					mods: { size: 'm', view: 'primary', weight: 'semibold', align: 'right' },
 																					content: '- 420 ₽'
 																				}
 																			]
 																		},
 																		{
 																			elem: 'item',
-																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-h': 'l', 'space-v': 's', 'distribute': 'between', 'vertical-align': 'center' } },
+																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-b': 'l', 'distribute': 'between', 'vertical-align': 'center' } },
 																			content: [
 																				{
 																					block: 'pt-icon-plus',
@@ -158,15 +154,15 @@ module.exports = {
 																						},
 																						{
 																							elem: 'block',
-																							mix: { block: 'text', mods: { size: 'm' } },
+																							mix: { block: 'text', mods: { view: 'primary', weight: 'semibold', size: 'm' } },
 																							content: 'iTunes'
 																						}
 																					]
 																				},
 																				{
 																					block: 'text',
-																					mods: { size: 'm', view: 'primary', align: 'right' },
-																					content: '- 2 000 ₽'
+																					mods: { size: 'm', view: 'primary', weight: 'semibold', align: 'right' },
+																					content: '- 1 490 ₽'
 																				}
 																			]
 																		}
@@ -174,60 +170,17 @@ module.exports = {
 																},
 																{
 																	elem: 'section',
-																	mix: { block: 'pt-list', elem: 'item', elemMods: { 'indent-b': 'xl' } },
+																	mix: { block: 'pt-list', elem: 'item', elemMods: { 'indent-b': 'xxl' } },
 																	content: [
 																		{
-																			elem: 'subtitle',
-																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-h': 'l', 'space-v': 'xs' } },
-																			content: [
-																				{
-																					block: 'text',
-																					mods: { size: 's', view: 'secondary', transform: 'uppercase' },
-																					content: 'Yesterday'
-																				}
-																			]
+																			block: 'text',
+																			mix: { block: 'decorator', mods: { 'space-b': 'm' } },
+																			mods: { size: 'l', view: 'primary', weight: 'black' },
+																			content: '19 May'
 																		},
-																		// {
-																		// 	elem: 'item',
-																		// 	mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-h': 'l', 'space-v': 's', 'distribute': 'between', 'vertical-align': 'center' } },
-																		// 	content: [
-																		// 		{
-																		// 			block: 'pt-icon-plus',
-																		// 			mods: { 'vertical-align': 'center' },
-																		// 			mix: { block: 'decorator', mods: { 'indent-r': 'l' } },
-																		// 			content: [
-																		// 				{
-																		// 					elem: 'icon',
-																		// 					elemMods: { 'indent-right': 's' },
-																		// 					content: [
-																		// 						{
-																		// 							block: 'pt-avatar',
-																		// 							content: [
-																		// 								{
-																		// 									elem: 'photo',
-																		// 									elemMods: { size: 's' }
-																		// 								}
-																		// 							]
-																		// 						}
-																		// 					]
-																		// 				},
-																		// 				{
-																		// 					elem: 'block',
-																		// 					mix: { block: 'text', mods: { size: 'm' } },
-																		// 					content: 'Одноклассники'
-																		// 				}
-																		// 			]
-																		// 		},
-																		// 		{
-																		// 			block: 'text',
-																		// 			mods: { size: 'm', view: 'success', align: 'right' },
-																		// 			content: '+ 1 000 ₽'
-																		// 		}
-																		// 	]
-																		// },
 																		{
 																			elem: 'item',
-																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-h': 'l', 'space-v': 's', 'distribute': 'between', 'vertical-align': 'center' } },
+																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-b': 'l', 'distribute': 'between', 'vertical-align': 'center' } },
 																			content: [
 																				{
 																					block: 'pt-icon-plus',
@@ -237,25 +190,25 @@ module.exports = {
 																						{
 																							elem: 'icon',
 																							elemMods: { 'indent-right': 's' },
-																							mix: { block: 'brand-logo', mods: { view: 'ok', size: 'xs' } }
+																							mix: { block: 'brand-logo', mods: { view: 'wu', size: 'xs' } }
 																						},
 																						{
 																							elem: 'block',
-																							mix: { block: 'text', mods: { size: 'm' } },
-																							content: 'Одноклассники'
+																							mix: { block: 'text', mods: { view: 'primary', size: 'm', weight: 'semibold' } },
+																							content: 'Western Union'
 																						}
 																					]
 																				},
 																				{
 																					block: 'text',
-																					mods: { size: 'm', view: 'success', align: 'right' },
+																					mods: { size: 'm', view: 'success', weight: 'semibold', align: 'right' },
 																					content: '+ 1 000 ₽'
 																				}
 																			]
 																		},
 																		{
 																			elem: 'item',
-																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-h': 'l', 'space-v': 's', 'distribute': 'between', 'vertical-align': 'center' } },
+																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-b': 'l', 'distribute': 'between', 'vertical-align': 'center' } },
 																			content: [
 																				{
 																					block: 'pt-icon-plus',
@@ -265,18 +218,18 @@ module.exports = {
 																						{
 																							elem: 'icon',
 																							elemMods: { 'indent-right': 's' },
-																							mix: { block: 'brand-logo', mods: { view: 'tele2', size: 'xs' } }
+																							mix: { block: 'brand-logo', mods: { view: 'yota', size: 'xs' } }
 																						},
 																						{
 																							elem: 'block',
-																							mix: { block: 'text', mods: { size: 'm' } },
+																							mix: { block: 'text', mods: { view: 'primary', weight: 'semibold', size: 'm' } },
 																							content: 'Yota'
 																						}
 																					]
 																				},
 																				{
 																					block: 'text',
-																					mods: { size: 'm', view: 'primary', align: 'right' },
+																					mods: { size: 'm', view: 'primary', weight: 'semibold', align: 'right' },
 																					content: '- 360 ₽'
 																				}
 																			]
@@ -319,376 +272,16 @@ module.exports = {
 											content: [
 												{
 													block: 'payment',
-													mix: { block: 'pt-list', mods: { 'view': 'ghost' } },
-													attrs: { style: 'box-sizing: border-box'},
+													mods: { view: 'whole' },
+													mix: { block: 'decorator', mods: { 'space-t': 'xxxxl', 'space-h': 'l', 'space-b': 'l' } },
 													content: [
 														{
 															elem: 'header',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-a': 'xl', 'indent-b': 's' } },
+															mix: { block: 'decorator', mods: { 'indent-b': 'xl' } },
 															content: [
 																{
 																	block: 'text',
-																	mods: { view: 'primary', size: 'xxxl', weight: 'black' },
-																	attrs: { style: 'font-weight: 900' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-																	content: 'Rostelecom'
-																},
-																{
-																	elem: 'info',
-																	content: [
-																		{
-																			block: 'decorator',
-																			mods: { 'indent-r': 'l'},
-																			content: [
-																				{
-																					block: 'text',
-																					mods: { view: 'primary', size: 's', weight: 'bold' },
-																					mix: { block: 'decorator', mods: { 'indent-b': 'xs' } },
-																					content: 'Information'
-																				},
-																				{
-																					block: 'text',
-																					mods: { view: 'primary', size: 's' },
-																					mix: { block: 'decorator', mods: { 'indent-b': 'xs' } },
-																					content: 'To correct the previous steps, you can click edit'
-																				}
-																			]
-																		},
-																		{
-																			block: 'text',
-																			mods: { view: 'link', size: 's' },
-																			content: 'Edit'
-																		}
-																	]
-																}
-															]
-														},
-
-														{
-															block: 'pt-list',
-															elem: 'item',
-															elemMods: { 'space-a': 'xl', 'indent-b': 's' },
-															mix: { block: 'payment', elem: 'item' },
-															content: [
-																{
-																	block: 'text',
-																	mods: { view: 'primary', weight: 'black', size: 'xl' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm'}},
-																	content: 'Payment method'
-																},
-																{
-																	block: 'paychoose',
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
-																	content: [
-																		{
-																			elem: 'item',
-																			content: [
-																				{
-																					elem: 'item-header',
-																					content: [
-																						{
-																							elem: 'name',
-																							content: [
-																								{
-																									elem: 'radio',
-																									elemMods: { view: 'default' }
-																								},
-																								{
-																									block: 'text',
-																									mods: { view: 'link', size: 's', weight: 'bold' },
-																									content: 'Bank Card'
-																								},
-																							]
-																						},
-																						{
-																							block: 'image',
-																							mix: { block: 'paychoose', elem: 'logo' },
-																							url: '/assets/bem-starter-kit/mastercard_inverse.svg',
-																							width: 30
-																						}
-																					]
-																				}
-																			]
-																		},
-																		{
-																			elem: 'item',
-																			elemMods: { view: 'brand' },
-																			content: [
-																				{
-																					elem: 'item-header',
-																					content: [
-																						{
-																							elem: 'name',
-																							content: [
-																								{
-																									elem: 'radio',
-																									elemMods: { view: 'checked' }
-																								},
-																								{
-																									block: 'text',
-																									mods: { view: 'inverse', size: 's', weight: 'bold' },
-																									content: 'Yandex Money'
-																								},
-																							]
-																						},
-																						{
-																							block: 'text',
-																							mods: { view: 'inverse', size: 's' },
-																							content: '$2 345'
-																						}
-																					]
-																				},
-																				{
-																					elem: 'content',
-																					content: [
-																						{
-																							block: 'paychoose', elem: 'user',
-																							mix: { block: 'decorator', mods: { 'indent-b': 'xxs'} },
-																							content: [
-																								{
-																									block: 'pt-avatar',
-																									mix: [
-																										{ block: 'paychoose', elem: 'avatar' },
-																										{ block: 'decorator', mods: { 'indent-b': 's'}}
-																									],
-																									content: {
-																										elem: 'photo',
-																										elemMods: { size: 's'}
-																									}
-																								},
-																								{
-																									block: 'text',
-																									mods: { view: 'inverse', size: 's', weight: 'bold'},
-																									content: 'Luke Appleyard'
-																								},
-																								{
-																									block: 'text',
-																									mods: { view: 'inverse', size: 'xs', weight: 'light'},
-																									content: 'Selected'
-																								}
-																							]
-																						},
-																						{
-																							block: 'text',
-																							mods: { view: 'inverse', size: 's', weight: 'light', align: 'right'},
-																							content: 'Edit'
-																						}
-																					]
-																				}
-																			]
-																		},
-																	]
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'primary', weight: 'bold', size: 's' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'xs' } },
-																	content: 'About'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'primary', size: 's' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-																	content: 'To the next time to pay it was more convenient, we will open a purse for you in Yandex. We can also tie a card.'
-																}
-															]
-														},
-														{
-															block: 'pt-list',
-															elem: 'item',
-															elemMods: { 'space-a': 'xl', 'indent-b': 's' },
-															mix: { block: 'payment', elem: 'item' },
-															content: [
-																{
-																	block: 'button',
-																	mods: { theme: 'islands', width: 'full', size: 'l', view: 'action',  width: 'available' },
-																	text: 'Pay $120',
-																}
-															]
-														}
-													]
-												}
-											]
-										},
-										{
-											elem: 'fraction',
-											elemMods: { col: '4'},
-											content: [
-												{
-													block: 'payment',
-													mix: { block: 'pt-list', mods: { 'view': 'ghost' } },
-													attrs: { style: 'width: 320px; box-sizing: border-box'},
-													content: [
-														{
-															elem: 'header',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-a': 'xl', 'indent-b': 's' } },
-															content: [
-																{
-																	block: 'text',
-																	mods: { view: 'primary', size: 'xxxl', weight: 'black' },
-																	attrs: { style: 'font-weight: 900' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-																	content: 'Rostelecom'
-																},
-																{
-																	elem: 'info',
-																	content: [
-																		{
-																			block: 'decorator',
-																			mods: { 'indent-r': 'l'},
-																			content: [
-																				{
-																					block: 'text',
-																					mods: { view: 'primary', size: 's', weight: 'bold' },
-																					mix: { block: 'decorator', mods: { 'indent-b': 'xs' } },
-																					content: 'Information'
-																				},
-																				{
-																					block: 'text',
-																					mods: { view: 'primary', size: 's' },
-																					mix: { block: 'decorator', mods: { 'indent-b': 'xs' } },
-																					content: 'To correct the previous steps, you can click edit'
-																				}
-																			]
-																		},
-																		{
-																			block: 'text',
-																			mods: { view: 'link', size: 's' },
-																			content: 'Edit'
-																		}
-																	]
-																}
-															]
-														},
-														{
-															block: 'pt-list',
-															elem: 'item',
-															elemMods: { 'space-a': 'xl', 'indent-b': 's' },
-															mix: { block: 'payment', elem: 'item' },
-															content: [
-																{
-																	block: 'text',
-																	mods: { view: 'primary', weight: 'black', size: 'xl' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm'}},
-																	content: 'Payment method'
-																},
-																{
-																	block: 'paychoose',
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
-																	content: [
-																		{
-																			elem: 'item',
-																			content: [
-																				{
-																					elem: 'item-header',
-																					content: [
-																						{
-																							elem: 'name',
-																							content: [
-																								{
-																									elem: 'radio',
-																									elemMods: { view: 'default' }
-																								},
-																								{
-																									block: 'text',
-																									mods: { view: 'link', size: 's', weight: 'bold' },
-																									content: 'Bank Card'
-																								},
-																							]
-																						},
-																						{
-																							block: 'image',
-																							mix: { block: 'paychoose', elem: 'logo' },
-																							url: '/assets/bem-starter-kit/mastercard_inverse.svg',
-																							width: 30
-																						}
-																					]
-																				}
-																			]
-																		},
-																		{
-																			elem: 'item',
-																			content: [
-																				{
-																					elem: 'item-header',
-																					content: [
-																						{
-																							elem: 'name',
-																							content: [
-																								{
-																									elem: 'radio',
-																									elemMods: { view: 'default' }
-																								},
-																								{
-																									block: 'text',
-																									mods: { view: 'link', size: 's', weight: 'bold' },
-																									content: 'Yandex Money'
-																								}
-																							]
-																						},
-																						{
-																							block: 'text',
-																							mods: { view: 'primary', size: 's' },
-																							content: '$2 345'
-																						}
-																					]
-																				}
-																			]
-																		}
-																	]
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'primary', weight: 'bold', size: 's' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'xs' } },
-																	content: 'About'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'primary', size: 's' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-																	content: 'To the next time to pay it was more convenient, we will open a purse for you in Yandex. We can also tie a card.'
-																}
-															]
-														},
-														{
-															block: 'pt-list',
-															elem: 'item',
-															elemMods: { 'space-a': 'xl', 'indent-b': 's' },
-															mix: { block: 'payment', elem: 'item' },
-															content: [
-																{
-																	block: 'button',
-																	mods: { theme: 'islands', width: 'full', size: 'l', view: 'action',  width: 'available' },
-																	text: 'Pay $120',
-																}
-															]
-														}
-													]
-												}
-											]
-										},
-										{
-											elem: 'fraction',
-											elemMods: { col: '4'},
-											content: [
-												{
-													block: 'payment',
-													mix: [
-														{ block: 'decorator', mods: { 'space-a': 'xl' } },
-														{ block: 'pt-list', mods: { 'view': 'default' } },
-													],
-													attrs: { style: 'height: 456px; overflow: hidden;'},
-													content: [
-														{
-															elem: 'header',
-															mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
-															content: [
-																{
-																	block: 'text',
-																	mods: { view: 'primary', size: 'xxxl', weight: 'black' },
-																	attrs: { style: 'font-weight: 900' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
+																	mods: { size: 'xxxl', view: 'primary', weight: 'black' },
 																	content: 'Rostelecom'
 																}
 															]
@@ -700,7 +293,7 @@ module.exports = {
 															content: [
 																{
 																	elem: 'item',
-																	elemMods: { 'indent-b': 'l' },
+																	elemMods: { 'indent-b': 'xl' },
 																	content: [
 																		{
 																			block: 'text', mods: { view: 'ghost', size: 's' },
@@ -751,7 +344,7 @@ module.exports = {
 																	content: {
 																		block: 'button',
 																		mods: { theme: 'islands', width: 'full', size: 'l', view: 'action',  width: 'available' },
-																		text: 'FACEBOOK'
+																		text: 'PAY'
 																	}
 																}
 															]
@@ -760,74 +353,392 @@ module.exports = {
 												}
 											]
 										},
+
 										{
 											elem: 'fraction',
 											elemMods: { col: '4'},
 											content: [
 												{
 													block: 'payment',
-													mix: { block: 'pt-list', mods: { 'view': 'ghost' } },
-													attrs: { style: 'width: 320px; box-sizing: border-box'},
+													mods: { view: 'devided' },
 													content: [
 														{
 															elem: 'header',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-a': 'xl', 'indent-b': 's' } },
+															mix: { block: 'decorator', mods: { 'space-t': 'xxxxl', 'space-h': 'l', 'space-b': 'l', 'indent-b': 'xs' } },
 															content: [
 																{
 																	block: 'text',
-																	mods: { view: 'primary', size: 'xxxl', weight: 'black' },
-																	attrs: { style: 'font-weight: 900' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
+																	mods: { size: 'xxxl', view: 'primary', weight: 'black' },
 																	content: 'Rostelecom'
 																},
 																{
 																	elem: 'info',
+																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
 																	content: [
 																		{
-																			block: 'decorator',
-																			mods: { 'indent-r': 'l'},
-																			content: [
-																				{
-																					block: 'text',
-																					mods: { view: 'primary', size: 's', weight: 'bold' },
-																					mix: { block: 'decorator', mods: { 'indent-b': 'xs' } },
-																					content: 'Information'
-																				},
-																				{
-																					block: 'text',
-																					mods: { view: 'primary', size: 's' },
-																					mix: { block: 'decorator', mods: { 'indent-b': 'xs' } },
-																					content: 'To correct the previous steps, you can click edit'
-																				}
-																			]
+																			block: 'text',
+																			mods: { view: 'primary', size: 's', weight: 'bold' },
+																			content: 'Information'
 																		},
 																		{
 																			block: 'text',
-																			mods: { view: 'link', size: 's' },
+																			mods: { view: 'link', size: 's', weight: 'semibold' },
 																			content: 'Edit'
 																		}
 																	]
+																},
+																{
+																	block: 'text',
+																	mods: { view: 'primary', size: 's' },
+																	content: 'To correct the previous steps, you can click edit'
 																}
 															]
 														},
 														{
-															block: 'pt-list',
-															elem: 'item',
-															elemMods: { 'space-a': 'xl', 'indent-b': 's' },
-															mix: { block: 'payment', elem: 'item' },
+															elem: 'methods',
+															mix: { block: 'decorator', mods: { 'space-t': 'l', 'space-b': 'xl', 'space-h': 'l', 'indent-b': 'xs' } },
 															content: [
 																{
 																	block: 'text',
-																	mods: { view: 'primary', weight: 'black', size: 'xl' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm'}},
+																	mods: { view: 'primary', size: 'l', weight: 'black' },
+																	mix: { block: 'decorator', mods: { 'indent-b': 'm'} },
 																	content: 'Payment method'
 																},
 																{
-																	block: 'paychoose',
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
+																	block: 'payment-methods',
+																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
 																	content: [
 																		{
-																			block: 'paychoose',
+																			elem: 'item',
+																			content: [
+																				{
+																					elem: 'item-header',
+																					content: [
+																						{
+																							elem: 'name',
+																							content: [
+																								{
+																									elem: 'radio',
+																									elemMods: { view: 'default' }
+																								},
+																								{
+																									block: 'text',
+																									mods: { view: 'link', size: 's', weight: 'bold' },
+																									content: 'Bank Card'
+																								},
+																							]
+																						},
+																						{
+																							block: 'image',
+																							mix: { block: 'payment-methods', elem: 'logo' },
+																							url: '/assets/bem-starter-kit/mastercard_inverse.svg',
+																							width: 30
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			elem: 'item',
+																			content: [
+																				{
+																					elem: 'item-header',
+																					content: [
+																						{
+																							elem: 'name',
+																							content: [
+																								{
+																									elem: 'radio',
+																									elemMods: { view: 'default' }
+																								},
+																								{
+																									block: 'text',
+																									mods: { view: 'link', size: 's', weight: 'bold' },
+																									content: 'Yandex Money'
+																								}
+																							]
+																						},
+																						{
+																							block: 'text',
+																							mods: { view: 'primary', size: 's' },
+																							content: '$2 345'
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	block: 'text',
+																	mods: { view: 'primary', weight: 'bold', size: 's' },
+																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+																	content: 'About'
+																},
+																{
+																	block: 'text',
+																	mods: { view: 'primary', size: 's' },
+																	content: 'To the next time to pay it was more convenient, we will open a purse for you in Yandex. We can also tie a card.'
+																}
+															]
+														},
+														{
+															elem: 'button',
+															mix: { block: 'decorator', mods: { 'space-h': 'l', 'space-v': 'xl' } },
+															content: [
+																{
+																	block: 'button',
+																	mods: { theme: 'islands', width: 'full', size: 'l', view: 'action',  width: 'available' },
+																	text: 'PAY $120',
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+
+										{
+											elem: 'fraction',
+											elemMods: { col: '4'},
+											content: [
+												{
+													block: 'payment',
+													mods: { view: 'devided' },
+													content: [
+														{
+															elem: 'header',
+															mix: { block: 'decorator', mods: { 'space-t': 'xxxxl', 'space-h': 'l', 'space-b': 'l', 'indent-b': 'xs' } },
+															content: [
+																{
+																	block: 'text',
+																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
+																	mods: { size: 'xxxl', view: 'primary', weight: 'black' },
+																	content: 'Rostelecom'
+																},
+																{
+																	elem: 'info',
+																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+																	content: [
+																		{
+																			block: 'text',
+																			mods: { view: 'primary', size: 's', weight: 'bold' },
+																			content: 'Information'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'link', size: 's', weight: 'semibold' },
+																			content: 'Edit'
+																		}
+																	]
+																},
+																{
+																	block: 'text',
+																	mods: { view: 'primary', size: 's' },
+																	content: 'To correct the previous steps, you can click edit'
+																}
+															]
+														},
+														{
+															elem: 'methods',
+															mix: { block: 'decorator', mods: { 'space-t': 'l', 'space-b': 'xl', 'space-h': 'l', 'indent-b': 'xs' } },
+															content: [
+																{
+																	block: 'text',
+																	mods: { view: 'primary', size: 'l', weight: 'black' },
+																	mix: { block: 'decorator', mods: { 'indent-b': 'm'} },
+																	content: 'Payment method'
+																},
+																{
+																	block: 'payment-methods',
+																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
+																	content: [
+																		{
+																			elem: 'item',
+																			content: [
+																				{
+																					elem: 'item-header',
+																					content: [
+																						{
+																							elem: 'name',
+																							content: [
+																								{
+																									elem: 'radio',
+																									elemMods: { view: 'default' }
+																								},
+																								{
+																									block: 'text',
+																									mods: { view: 'link', size: 's', weight: 'bold' },
+																									content: 'Bank Card'
+																								},
+																							]
+																						},
+																						{
+																							block: 'image',
+																							mix: { block: 'payment-methods', elem: 'logo' },
+																							url: '/assets/bem-starter-kit/mastercard_inverse.svg',
+																							width: 30
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			elem: 'item',
+																			elemMods: { view: 'brand' },
+																			content: [
+																				{
+																					elem: 'item-header',
+																					content: [
+																						{
+																							elem: 'name',
+																							content: [
+																								{
+																									elem: 'radio',
+																									elemMods: { view: 'checked' }
+																								},
+																								{
+																									block: 'text',
+																									mods: { view: 'primary', size: 's', weight: 'bold' },
+																									content: 'Yandex Money'
+																								},
+																							]
+																						},
+																						{
+																							block: 'text',
+																							mods: { view: 'primary', size: 's', weight: 'semibold' },
+																							content: '$2 345'
+																						}
+																					]
+																				},
+																				{
+																					elem: 'content',
+																					content: [
+																						{
+																							block: 'payment-methods', elem: 'user',
+																							mix: { block: 'decorator', mods: { 'indent-b': 'xxs'} },
+																							content: [
+																								{
+																									block: 'pt-avatar',
+																									mix: [
+																										{ block: 'payment-methods', elem: 'avatar' },
+																										{ block: 'decorator', mods: { 'indent-b': 's'}}
+																									],
+																									content: {
+																										elem: 'photo',
+																										elemMods: { size: 's'}
+																									}
+																								},
+																								{
+																									block: 'text',
+																									mods: { view: 'primary', size: 's', weight: 'bold'},
+																									content: 'Luke Appleyard'
+																								},
+																								{
+																									block: 'text',
+																									mods: { view: 'primary', size: 'xs', weight: 'light'},
+																									content: 'Selected'
+																								}
+																							]
+																						},
+																						{
+																							block: 'text',
+																							mods: { view: 'primary', size: 's', weight: 'semibold', align: 'right'},
+																							content: 'Edit'
+																						}
+																					]
+																				}
+																			]
+																		},
+																	]
+																},
+																{
+																	block: 'text',
+																	mods: { view: 'primary', weight: 'bold', size: 's' },
+																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+																	content: 'About'
+																},
+																{
+																	block: 'text',
+																	mods: { view: 'primary', size: 's' },
+																	content: 'To the next time to pay it was more convenient, we will open a purse for you in Yandex. We can also tie a card.'
+																}
+															]
+														},
+														{
+															elem: 'button',
+															mix: { block: 'decorator', mods: { 'space-h': 'l', 'space-v': 'xl' } },
+															content: [
+																{
+																	block: 'button',
+																	mods: { theme: 'islands', width: 'full', size: 'l', view: 'action',  width: 'available' },
+																	text: 'PAY $120',
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+
+										{
+											elem: 'fraction',
+											elemMods: { col: '4'},
+											content: [
+												{
+													block: 'payment',
+													mods: { view: 'devided' },
+													content: [
+														{
+															elem: 'header',
+															mix: { block: 'decorator', mods: { 'space-t': 'xxxxl', 'space-h': 'l', 'space-b': 'l', 'indent-b': 'xs' } },
+															content: [
+																{
+																	block: 'text',
+																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
+																	mods: { size: 'xxxl', view: 'primary', weight: 'black' },
+																	content: 'Rostelecom'
+																},
+																{
+																	elem: 'info',
+																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+																	content: [
+																		{
+																			block: 'text',
+																			mods: { view: 'primary', size: 's', weight: 'bold' },
+																			content: 'Information'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'link', size: 's', weight: 'semibold' },
+																			content: 'Edit'
+																		}
+																	]
+																},
+																{
+																	block: 'text',
+																	mods: { view: 'primary', size: 's' },
+																	content: 'To correct the previous steps, you can click edit'
+																}
+															]
+														},
+														{
+															elem: 'methods',
+															mix: { block: 'decorator', mods: { 'space-t': 'l', 'space-b': 'xl', 'space-h': 'l', 'indent-b': 'xs' } },
+															content: [
+																{
+																	block: 'text',
+																	mods: { view: 'primary', size: 'l', weight: 'black' },
+																	mix: { block: 'decorator', mods: { 'indent-b': 'm'} },
+																	content: 'Payment method'
+																},
+																{
+																	block: 'payment-methods',
+																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
+																	content: [
+																		{
+																			block: 'payment-methods',
 																			mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
 																			content: [
 																				{
@@ -846,14 +757,14 @@ module.exports = {
 																										},
 																										{
 																											block: 'text',
-																											mods: { view: 'inverse', size: 's', weight: 'bold' },
+																											mods: { view: 'primary', size: 's', weight: 'bold' },
 																											content: 'Bank Card'
 																										},
 																									]
 																								},
 																								{
 																									block: 'image',
-																									mix: { block: 'paychoose', elem: 'logo' },
+																									mix: { block: 'payment-methods', elem: 'logo' },
 																									url: '/assets/bem-starter-kit/mastercard.svg',
 																									width: 30
 																								}
@@ -924,45 +835,41 @@ module.exports = {
 																								},
 																								{
 																									block: 'text',
-																									mods: { view: 'primary', size: 's' },
+																									mods: { view: 'primary', size: 's', weight: 'semibold' },
 																									content: '$2 345'
 																								}
 																							]
 																						}
 																					]
-																				},
+																				}
 																			]
-																		},
+																		}
 																	]
 																},
 																{
 																	block: 'text',
 																	mods: { view: 'primary', weight: 'bold', size: 's' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'xs' } },
+																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
 																	content: 'About'
 																},
 																{
 																	block: 'text',
 																	mods: { view: 'primary', size: 's' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
 																	content: 'To the next time to pay it was more convenient, we will open a purse for you in Yandex. We can also tie a card.'
 																}
 															]
 														},
 														{
-															block: 'pt-list',
-															elem: 'item',
-															elemMods: { 'space-a': 'xl', 'indent-b': 's' },
-															mix: { block: 'payment', elem: 'item' },
+															elem: 'button',
+															mix: { block: 'decorator', mods: { 'space-h': 'l', 'space-v': 'xl' } },
 															content: [
 																{
 																	block: 'button',
 																	mods: { theme: 'islands', width: 'full', size: 'l', view: 'action',  width: 'available' },
-																	text: 'Pay $120'
+																	text: 'PAY $120',
 																}
 															]
 														}
-
 													]
 												}
 											]

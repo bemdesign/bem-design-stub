@@ -1,17 +1,21 @@
 .payment {
-	min-height: 456px;
-	box-sizing: border-box;
-	&__header {
-		background: var(--color-default);
+	&_view {
+		&_whole {
+			background: var(--color-default);
+		}
+		&_divided {
+			background: var(--color-default);
+		}
 	}
 
-	&__item {
+	&__header,
+	&__methods,
+	&__button {
 		background: var(--color-default);
 	}
 
 	&__info {
 		display: flex;
-		flex-flow: row nowrap;
 		justify-content: space-between;
 	}
 }

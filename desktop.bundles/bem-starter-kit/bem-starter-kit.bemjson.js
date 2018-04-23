@@ -79,7 +79,7 @@ module.exports = {
 																		{
 																			block: 'text',
 																			mix: { block: 'decorator', mods: { 'space-b': 'm' } },
-																			mods: { size: 'l', view: 'primary', weight: 'black' },
+																			mods: { size: 'xl', view: 'primary', weight: 'black' },
 																			content: 'Today'
 																		},
 																		{
@@ -175,7 +175,7 @@ module.exports = {
 																		{
 																			block: 'text',
 																			mix: { block: 'decorator', mods: { 'space-b': 'm' } },
-																			mods: { size: 'l', view: 'primary', weight: 'black' },
+																			mods: { size: 'xl', view: 'primary', weight: 'black' },
 																			content: '19 May'
 																		},
 																		{
@@ -282,7 +282,7 @@ module.exports = {
 																{
 																	block: 'text',
 																	mods: { size: 'xxxl', view: 'primary', weight: 'black' },
-																	content: 'Rostelecom'
+																	content: 'Steam Wallet'
 																}
 															]
 														},
@@ -370,7 +370,7 @@ module.exports = {
 																	block: 'text',
 																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
 																	mods: { size: 'xxxl', view: 'primary', weight: 'black' },
-																	content: 'Rostelecom'
+																	content: 'Steam Wallet'
 																},
 																{
 																	elem: 'info',
@@ -401,7 +401,7 @@ module.exports = {
 															content: [
 																{
 																	block: 'text',
-																	mods: { view: 'primary', size: 'l', weight: 'black' },
+																	mods: { view: 'primary', size: 'xl', weight: 'black' },
 																	mix: { block: 'decorator', mods: { 'indent-b': 'm'} },
 																	content: 'Payment method'
 																},
@@ -461,8 +461,8 @@ module.exports = {
 																						},
 																						{
 																							block: 'text',
-																							mods: { view: 'primary', size: 's' },
-																							content: '$2 345'
+																							mods: { view: 'primary', size: 's', weight: 'semibold' },
+																							content: '2 000 ₽'
 																						}
 																					]
 																				}
@@ -490,7 +490,7 @@ module.exports = {
 																{
 																	block: 'button',
 																	mods: { theme: 'islands', width: 'full', size: 'l', view: 'action',  width: 'available' },
-																	text: 'PAY $120',
+																	text: 'PAY 2 000 ₽',
 																}
 															]
 														}
@@ -515,7 +515,7 @@ module.exports = {
 																	block: 'text',
 																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
 																	mods: { size: 'xxxl', view: 'primary', weight: 'black' },
-																	content: 'Rostelecom'
+																	content: 'Steam Wallet'
 																},
 																{
 																	elem: 'info',
@@ -546,7 +546,7 @@ module.exports = {
 															content: [
 																{
 																	block: 'text',
-																	mods: { view: 'primary', size: 'l', weight: 'black' },
+																	mods: { view: 'primary', size: 'xl', weight: 'black' },
 																	mix: { block: 'decorator', mods: { 'indent-b': 'm'} },
 																	content: 'Payment method'
 																},
@@ -608,7 +608,7 @@ module.exports = {
 																						{
 																							block: 'text',
 																							mods: { view: 'primary', size: 's', weight: 'semibold' },
-																							content: '$2 345'
+																							content: '2 000 ₽'
 																						}
 																					]
 																				},
@@ -673,7 +673,7 @@ module.exports = {
 																{
 																	block: 'button',
 																	mods: { theme: 'islands', width: 'full', size: 'l', view: 'action',  width: 'available' },
-																	text: 'PAY $120',
+																	text: 'PAY 2 000 ₽',
 																}
 															]
 														}
@@ -698,7 +698,7 @@ module.exports = {
 																	block: 'text',
 																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
 																	mods: { size: 'xxxl', view: 'primary', weight: 'black' },
-																	content: 'Rostelecom'
+																	content: 'Steam Wallet'
 																},
 																{
 																	elem: 'info',
@@ -729,7 +729,7 @@ module.exports = {
 															content: [
 																{
 																	block: 'text',
-																	mods: { view: 'primary', size: 'l', weight: 'black' },
+																	mods: { view: 'primary', size: 'xl', weight: 'black' },
 																	mix: { block: 'decorator', mods: { 'indent-b': 'm'} },
 																	content: 'Payment method'
 																},
@@ -836,7 +836,7 @@ module.exports = {
 																								{
 																									block: 'text',
 																									mods: { view: 'primary', size: 's', weight: 'semibold' },
-																									content: '$2 345'
+																									content: '2 000 ₽'
 																								}
 																							]
 																						}
@@ -866,7 +866,7 @@ module.exports = {
 																{
 																	block: 'button',
 																	mods: { theme: 'islands', width: 'full', size: 'l', view: 'action',  width: 'available' },
-																	text: 'PAY $120',
+																	text: 'PAY 2 000 ₽',
 																}
 															]
 														}
@@ -903,8 +903,58 @@ module.exports = {
 											elemMods: { col: '4'},
 											content: [
 												{
+													block: 'digital-item',
+													mix: { block: 'pt-card', mods: { view: 'default' } },
+													content: [
+														{
+															elem: 'cover',
+															mix: { block: 'pt-card', elem: 'content' },
+															content: [
+																{
+																	block: 'image',
+																	mix: { block: 'pt-card', elem: 'image', elemMods: { size: 'cover' } },
+																	url: '/assets/bem-starter-kit/uncharted_horizontal.jpg'
+																}
+															]
+														},
+														{
+															elem: 'info',
+															mix: { block: 'pt-card', elem: 'footer', elemMods: { 'space-a': 'xl' } },
+															content: [
+																{
+																	elem: 'wrap',
+																	content: [
+																		{
+																			block: 'text',
+																			mods: { view: 'primary', 'size': 'xxl', align: 'center', weight: 'black' },
+																			content: 'Uncharted 4'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'ghost', 'size': 'm', align: 'center' },
+																			mix: { block: 'decorator', mods: { 'indent-b': 'xxl' } },
+																			content: 'from Nauchty Dog'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'link', 'size': 'xxxl', align: 'center', weight: 'black' },
+																			content: '$129'
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											elem: 'fraction',
+											elemMods: { col: '4'},
+											content: [
+												{
 													block: 'digital-product',
-													mix: { block: 'pt-list', mods: { 'view': 'default' } },
+													mix: { block: 'pt-card', mods: { 'view': 'default' } },
 													content: [
 														{
 															elem: 'cover',
@@ -921,20 +971,20 @@ module.exports = {
 															content: [
 																{
 																	block: 'text',
-																	mods: { view: 'primary', size: 'xxxl', weight: 'bold' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+																	mods: { view: 'primary', size: 'xxxl', weight: 'black' },
+																	mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
 																	content: 'Uncharted 4'
 																},
 																{
 																	block: 'text',
 																	mods: { view: 'link', size: 'm' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
+																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
 																	content: 'from Nauchty Dog'
 																},
 																{
 																	block: 'text',
 																	mods: { view: 'primary', size: 's' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'xl' } },
+																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
 																	content: 'Uncharted 4: A Thiefs End is an action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment for PlayStation 4 in May 2016.'
 																},
 																{
@@ -946,28 +996,97 @@ module.exports = {
 																{
 																	block: 'text',
 																	mods: { view: 'primary', size: 's' },
-																	content: 'Just visited the best beach for surfing. The waves are awesome.'
+																	content: 'The key for activation of the game can be used only in the territory of the countries: the Russian Federation, the Republic of Armenia, the Republic of Azerbaijan, the Republic of Belarus, Georgia'
 																}
 															]
 														},
 														{
 															elem: 'buy',
+															mix: { block: 'decorator', mods: { 'space-h': 'l', 'indent-b': 'xxl' } },
 															content: [
-
+																{
+																	block: 'text',
+																	mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
+																	mods: { size: 'xl', view: 'primary', weight: 'black', },
+																	content: 'Buy'
+																},
+																{
+																	block: 'payment-methods',
+																	content: [
+																		{
+																			elem: 'item',
+																			content: [
+																				{
+																					elem: 'item-header',
+																					content: [
+																						{
+																							elem: 'name',
+																							content: [
+																								{
+																									elem: 'radio',
+																									elemMods: { view: 'default' }
+																								},
+																								{
+																									block: 'text',
+																									mods: { view: 'primary', size: 's', weight: 'bold' },
+																									content: 'Sony Games'
+																								},
+																							]
+																						},
+																						{
+																							block: 'text',
+																							mods: { view: 'link', size: 's', weight: 'bold' },
+																							content: '$65'
+																						},
+																					]
+																				}
+																			]
+																		},
+																		{
+																			elem: 'item',
+																			content: [
+																				{
+																					elem: 'item-header',
+																					content: [
+																						{
+																							elem: 'name',
+																							content: [
+																								{
+																									elem: 'radio',
+																									elemMods: { view: 'default' }
+																								},
+																								{
+																									block: 'text',
+																									mods: { view: 'primary', size: 's', weight: 'bold' },
+																									content: 'Yandex Store'
+																								}
+																							]
+																						},
+																						{
+																							block: 'text',
+																							mods: { view: 'link', size: 's', weight: 'bold' },
+																							content: '$45'
+																						},
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
 															]
 														},
 														{
-															elem: 'tag',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-a': 'l', 'indent-b': 's' } },
+															elem: 'tags',
+															mix: { block: 'decorator', mods: { 'space-h': 'l' } },
 															content: [
 																{
 																	elem: 'title',
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
+																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
 																	content: [
 																		{
 																			block: 'text',
-																			mods: { view: 'primary', size: 'xl', weight: 'bold' },
-																			content: 'Information'
+																			mods: { view: 'primary', size: 'xl', weight: 'black' },
+																			content: 'Tags'
 																		}
 																	]
 																},
@@ -1053,60 +1172,6 @@ module.exports = {
 																					]
 																				}
 																			]
-																		}
-																	]
-																}
-															]
-														}
-													]
-												}
-											]
-										},
-										{
-											elem: 'fraction',
-											elemMods: { col: '4'},
-											content: [
-												{
-													block: 'digital-item',
-													mix: { block: 'pt-card', mods: { view: 'default' } },
-													attrs: {
-														'style': 'height: 456px;'
-													},
-													content: [
-														{
-															elem: 'cover',
-															mix: { block: 'pt-card', elem: 'content' },
-															content: [
-																{
-																	block: 'image',
-																	mix: { block: 'pt-card', elem: 'image', elemMods: { size: 'cover' } },
-																	url: '/assets/bem-starter-kit/uncharted_horizontal.jpg'
-																}
-															]
-														},
-														{
-															elem: 'info',
-															mix: { block: 'pt-card', elem: 'footer', elemMods: { 'space-a': 'xl' } },
-															content: [
-																{
-																	elem: 'wrap',
-																	content: [
-																		{
-																			block: 'text',
-																			mods: { view: 'primary', 'size': 'xl', align: 'center', weight: 'bold' },
-																			mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-																			content: 'Uncharted 4'
-																		},
-																		{
-																			block: 'text',
-																			mods: { view: 'ghost', 'size': 'm', align: 'center' },
-																			mix: { block: 'decorator', mods: { 'indent-b': 'xxxl' } },
-																			content: 'from Nauchty Dog'
-																		},
-																		{
-																			block: 'text',
-																			mods: { view: 'link', 'size': 'xl', align: 'center', weight: 'bold' },
-																			content: '$129'
 																		}
 																	]
 																}

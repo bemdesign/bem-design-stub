@@ -1,7 +1,6 @@
 .digital-item {
-	overflow: hidden;
 	min-height: 456px;
-	box-sizing: border-box;
+
 	&__wrap {
 		width: 100%;
 	}

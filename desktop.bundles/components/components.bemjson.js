@@ -90,7 +90,9 @@ module.exports = {
 															icon: {
 																block: 'icon',
 																mods: {
-																	'arrow-left': 's-primary'
+																	name: 'arrow-left',
+																	size: 's',
+																	view: 'primary'
 																}
 															}
 														}
@@ -440,7 +442,9 @@ module.exports = {
 															icon: {
 																block: 'icon',
 																mods: {
-																	'arrow-left': 's-inverse'
+																	name: 'arrow-left',
+																	size: 's',
+																	view: 'primary'
 																}
 															}
 														}
@@ -789,7 +793,9 @@ module.exports = {
 															icon: {
 																block: 'icon',
 																mods: {
-																	'arrow-left': 's-inverse'
+																	name: 'arrow-left',
+																	size: 's',
+																	view: 'primary'
 																}
 															}
 														}

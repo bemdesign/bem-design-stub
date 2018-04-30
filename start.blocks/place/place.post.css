@@ -18,7 +18,7 @@
 	}
 	&__description {
 		padding-top: 96px !important;
-		background: #027EFF;
+		background: var(--color-default);
 	}
 	&__feedback {
 		background: var(--color-default);

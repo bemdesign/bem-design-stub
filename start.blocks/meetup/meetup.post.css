@@ -6,7 +6,7 @@
 		overflow: hidden;
 	}
 	&__description {
-		background-color: #027EFF; /* */
+		background-color: var(--color-default);
 	}
 	&__feedback {
 		background-color: var(--color-default); 

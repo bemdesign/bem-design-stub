@@ -93,7 +93,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							mix: { block: 'brand-logo', mods: { name: 'tele2', size: 'xs' } }
 																						},
 																						{
@@ -121,7 +121,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							mix: { block: 'brand-logo', mods: { name: 'mts', size: 'xs' } }
 																						},
 																						{
@@ -149,7 +149,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							mix: { block: 'brand-logo', mods: { name: 'itunes', size: 'xs' } }
 																						},
 																						{
@@ -189,7 +189,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							mix: { block: 'brand-logo', mods: { name: 'mts', size: 'xs' } }
 																						},
 																						{
@@ -217,7 +217,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							mix: { block: 'brand-logo', mods: { name: 'yota', size: 'xs' } }
 																						},
 																						{
@@ -1010,12 +1010,12 @@ module.exports = {
 														},
 														{
 															elem: 'buy',
-															mix: { block: 'decorator', mods: { 'space-h': 'l', 'indent-b': 'xxl' } },
+															mix: { block: 'decorator', mods: { 'space-h': 'l' }},
 															content: [
 																{
 																	block: 'text',
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
-																	mods: { size: 'xl', view: 'primary', weight: 'black', },
+																	mix: { block: 'decorator', mods: { 'indent-b': 'm' }},
+																	mods: { size: 'xl', view: 'primary', weight: 'black' },
 																	content: 'Buy'
 																},
 																{
@@ -1085,7 +1085,7 @@ module.exports = {
 														},
 														{
 															elem: 'tags',
-															mix: { block: 'decorator', mods: { 'space-h': 'l' } },
+															mix: { block: 'decorator', mods: { 'space-a': 'l' } },
 															content: [
 																{
 																	elem: 'title',
@@ -1108,7 +1108,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -1140,7 +1140,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -1173,7 +1173,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -1246,7 +1246,7 @@ module.exports = {
 																		{
 																			elem: 'icon',
 																			mix: { block: 'playlist-cover', mods: { size: 'big' } },
-																			elemMods: { 'indent-right': 'l' },
+																			elemMods: { 'indent-r': 'l' },
 																			content: {
 																				block: 'image',
 																				url: '/assets/bem-starter-kit/music-playlist.png',
@@ -1296,7 +1296,7 @@ module.exports = {
 																				{
 																					elem: 'icon',
 																					mix: { block: 'playlist-cover', mods: { size: 'small' } },
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: {
 																						block: 'image',
 																						url: '/assets/bem-starter-kit/music-album-cover.png',
@@ -1340,7 +1340,7 @@ module.exports = {
 																				{
 																					elem: 'icon',
 																					mix: { block: 'playlist-cover', mods: { size: 'small' } },
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: {
 																						block: 'image',
 																						url: '/assets/bem-starter-kit/music-album-cover.png',
@@ -1382,7 +1382,7 @@ module.exports = {
 																				{
 																					elem: 'icon',
 																					mix: { block: 'playlist-cover', mods: { size: 'small' } },
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: {
 																						block: 'image',
 																						url: '/assets/bem-starter-kit/music-album-cover.png',
@@ -1476,7 +1476,7 @@ module.exports = {
 																				{
 																					elem: 'icon',
 																					mix: { block: 'playlist-cover', mods: { size: 'small' } },
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: {
 																						block: 'image',
 																						url: '/assets/bem-starter-kit/music-album-cover.png',
@@ -1518,7 +1518,7 @@ module.exports = {
 																				{
 																					elem: 'icon',
 																					mix: { block: 'playlist-cover', mods: { size: 'small' } },
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: {
 																						block: 'image',
 																						url: '/assets/bem-starter-kit/music-album-cover.png',
@@ -1560,7 +1560,7 @@ module.exports = {
 																				{
 																					elem: 'icon',
 																					mix: { block: 'playlist-cover', mods: { size: 'small' } },
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: {
 																						block: 'image',
 																						url: '/assets/bem-starter-kit/music-album-cover.png',
@@ -1641,15 +1641,15 @@ module.exports = {
 																	content: [
 																		{
 																			block: 'icon',
-																			mods: { 'previous': 's-link' },
+																			mods: { name: 'arrow-left', size: 's', view: 'primary' }
 																		},
 																		{
 																			block: 'icon',
-																			mods: { 'play': 's-link' },
+																			mods: { name: 'arrow-left', size: 's', view: 'primary' }
 																		},
 																		{
 																			block: 'icon',
-																			mods: { 'next': 's-link' },
+																			mods: { name: 'arrow-left', size: 's', view: 'primary' }
 																		}
 																	]
 																}
@@ -2534,7 +2534,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -2567,7 +2567,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -2600,7 +2600,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -2706,7 +2706,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -2739,7 +2739,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -2848,7 +2848,7 @@ module.exports = {
 															content: [
 																{
 																	elem: 'icon',
-																	elemMods: { 'indent-right': 's' },
+																	elemMods: { 'indent-r': 's' },
 																	content: {
 																		block: 'avatar',
 																		content: {
@@ -2957,7 +2957,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					mix: { block: 'brand-logo', mods: { name: 'itunes', size: 'xs' } }
 																				},
 																				{
@@ -3037,7 +3037,7 @@ module.exports = {
 																	content: [
 																		{
 																			elem: 'icon',
-																			elemMods: { 'indent-right': 's' },
+																			elemMods: { 'indent-r': 's' },
 																			content: [
 																				{
 																					block: 'avatar',
@@ -3121,7 +3121,7 @@ module.exports = {
 															content: [
 																{
 																	elem: 'icon',
-																	elemMods: { 'indent-right': 's'},
+																	elemMods: { 'indent-r': 's'},
 																	content: {
 																		block: 'avatar',
 																		content: {
@@ -3188,7 +3188,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's'},
+																					elemMods: { 'indent-r': 's'},
 																					content: {
 																						block: 'avatar',
 																						content: {
@@ -3226,7 +3226,7 @@ module.exports = {
 																									content: [
 																										{
 																											elem: 'icon',
-																											elemMods: { 'indent-right': 's'},
+																											elemMods: { 'indent-r': 's'},
 																											content: {
 																												block: 'avatar',
 																												content: {
@@ -3344,7 +3344,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 'l' },
+																					elemMods: { 'indent-r': 'l' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -3427,7 +3427,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 'l' },
+																					elemMods: { 'indent-r': 'l' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -3592,7 +3592,7 @@ module.exports = {
 																},
 																{
 																	elem: 'icon',
-																 	elemMods: { 'indent-right': 's' },
+																 	elemMods: { 'indent-r': 's' },
 																	content: [
 																		{
 																			block: 'icon', 
@@ -3656,7 +3656,7 @@ module.exports = {
 																},
 																{
 																	elem: 'icon',
-																 	elemMods: { 'indent-right': 's' },
+																 	elemMods: { 'indent-r': 's' },
 																	content: [
 																		{
 																			block: 'icon', 
@@ -3762,14 +3762,14 @@ module.exports = {
 																	elemMods: { 'indent-b': 'm' },
 																	content: {
 																		block: 'button',
-																		mods: { theme: 'islands', width: 'full', size: 'l', view: 'action', width: 'available' },
+																		mods: { theme: 'islands', width: 'full', size: 'l', width: 'available' },
 																		text: 'Facebook'
 																	}
 																},
 																{
 																	elem: 'item',
 																	content: {
-																		block: 'text', mods: { view: 'link', size: 's', align: 'center', width: 'available' },
+																		block: 'text', mods: { view: 'link', size: 'l', align: 'center', width: 'available' },
 																		content: 'Signup'
 																	}
 																}
@@ -3842,14 +3842,14 @@ module.exports = {
 																	elemMods: { 'indent-b': 'm' },
 																	content: {
 																		block: 'button',
-																		mods: { theme: 'islands', width: 'full', size: 'l', view: 'action', width: 'available' },
+																		mods: { theme: 'islands', width: 'full', size: 'l', width: 'available' },
 																		text: 'Facebook'
 																	}
 																},
 																{
 																	elem: 'item',
 																	content: {
-																		block: 'text', mods: { view: 'link', size: 's', align: 'center' },
+																		block: 'text', mods: { view: 'link', size: 'l', align: 'center' },
 																		content: 'Login'
 																	}
 																}
@@ -3963,7 +3963,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					mix: { block: 'avatar' },
 																					content: [
 																						{
@@ -4069,7 +4069,7 @@ module.exports = {
 																			content: [
 																				{
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					mix: { block: 'avatar' },
 																					content: [
 																						{
@@ -4298,7 +4298,7 @@ module.exports = {
 																				{
 																					block: 'pt-icon-plus',
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -4324,7 +4324,7 @@ module.exports = {
 																				{
 																					block: 'pt-icon-plus',
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -4350,7 +4350,7 @@ module.exports = {
 																				{
 																					block: 'pt-icon-plus',
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -4376,7 +4376,7 @@ module.exports = {
 																				{
 																					block: 'pt-icon-plus',
 																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
+																					elemMods: { 'indent-r': 's' },
 																					content: [
 																						{
 																							block: 'icon', 
@@ -4467,7 +4467,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							content: [
 																								{
 																									block: 'icon', 
@@ -4499,7 +4499,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							content: [
 																								{
 																									block: 'icon', 
@@ -4531,7 +4531,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							content: [
 																								{
 																									block: 'icon', 
@@ -4617,7 +4617,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							content: [
 																								{
 																									block: 'icon', 
@@ -4649,7 +4649,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							content: [
 																								{
 																									block: 'icon', 
@@ -4681,7 +4681,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							content: [
 																								{
 																									block: 'icon', 
@@ -4768,7 +4768,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							content: [
 																								{
 																									block: 'icon', 
@@ -4800,7 +4800,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							content: [
 																								{
 																									block: 'icon', 
@@ -4832,7 +4832,7 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
+																							elemMods: { 'indent-r': 's' },
 																							content: [
 																								{
 																									block: 'icon', 

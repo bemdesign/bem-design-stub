@@ -954,10 +954,10 @@ module.exports = {
 											content: [
 												{
 													block: 'digital-product',
-													mix: { block: 'pt-card', mods: { 'view': 'default' } },
 													content: [
 														{
 															elem: 'cover',
+															mix: { block: 'decorator', mods: { 'indent-b': 'xxl' } },
 															content: [
 																{
 																	block: 'image',
@@ -966,208 +966,213 @@ module.exports = {
 															]
 														},
 														{
-															elem: 'info',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { 'space-a': 'l' } },
+															elem: 'content',
+															mix: { block: 'decorator', mods: { 'indent-h': 'l', 'space-b': 'l' } },
 															content: [
 																{
-																	block: 'text',
-																	mods: { view: 'primary', size: 'xxxl', weight: 'black' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
-																	content: 'Uncharted 4'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'link', size: 'm' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-																	content: 'from Nauchty Dog'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'primary', size: 's' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
-																	content: 'Uncharted 4: A Thiefs End is an action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment for PlayStation 4 in May 2016.'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'primary', size: 's', weight: 'bold' },
-																	mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-																	content: 'Information'
-																},
-																{
-																	block: 'text',
-																	mods: { view: 'primary', size: 's' },
-																	content: 'The key for activation of the game can be used only in the territory of the countries: the Russian Federation, the Republic of Armenia, the Republic of Azerbaijan, the Republic of Belarus, Georgia'
-																}
-															]
-														},
-														{
-															elem: 'buy',
-															mix: { block: 'decorator', mods: { 'space-h': 'l', 'indent-b': 'xxl' } },
-															content: [
-																{
-																	block: 'text',
-																	mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
-																	mods: { size: 'xl', view: 'primary', weight: 'black', },
-																	content: 'Buy'
-																},
-																{
-																	block: 'payment-methods',
+																	elem: 'info',
+																	mix: { block: 'decorator', mods: { 'indent-b': 'xxl' } },
 																	content: [
 																		{
-																			elem: 'item',
+																			block: 'text',
+																			mods: { view: 'primary', size: 'xxxl', weight: 'black' },
+																			mix: { block: 'decorator', mods: { 'indent-b': 'xxs' } },
+																			content: 'Uncharted 4'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'link', size: 'm' },
+																			mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+																			content: 'from Nauchty Dog'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'primary', size: 's' },
+																			mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
+																			content: 'Uncharted 4: A Thiefs End is an action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment for PlayStation 4 in May 2016.'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'primary', size: 's', weight: 'bold' },
+																			mix: { block: 'decorator', mods: { 'indent-b': 's' } },
+																			content: 'Information'
+																		},
+																		{
+																			block: 'text',
+																			mods: { view: 'primary', size: 's' },
+																			content: 'The key for activation of the game can be used only in the territory of the countries: the Russian Federation, the Republic of Armenia, the Republic of Azerbaijan, the Republic of Belarus, Georgia'
+																		}
+																	]
+																},
+																{
+																	elem: 'buy',
+																	mix: { block: 'decorator', mods: { 'indent-b': 'xxl' } },
+																	content: [
+																		{
+																			block: 'text',
+																			mix: { block: 'decorator', mods: { 'indent-b': 'm' } },
+																			mods: { size: 'xl', view: 'primary', weight: 'black' },
+																			content: 'Buy'
+																		},
+																		{
+																			block: 'payment-methods',
 																			content: [
 																				{
-																					elem: 'item-header',
+																					elem: 'item',
 																					content: [
 																						{
-																							elem: 'name',
+																							elem: 'item-header',
 																							content: [
 																								{
-																									elem: 'radio',
-																									elemMods: { view: 'default' }
+																									elem: 'name',
+																									content: [
+																										{
+																											elem: 'radio',
+																											elemMods: { view: 'default' }
+																										},
+																										{
+																											block: 'text',
+																											mods: { view: 'primary', size: 's', weight: 'bold' },
+																											content: 'Sony Games'
+																										},
+																									]
 																								},
 																								{
 																									block: 'text',
-																									mods: { view: 'primary', size: 's', weight: 'bold' },
-																									content: 'Sony Games'
+																									mods: { view: 'link', size: 's', weight: 'bold' },
+																									content: '$65'
 																								},
 																							]
+																						}
+																					]
+																				},
+																				{
+																					elem: 'item',
+																					content: [
+																						{
+																							elem: 'item-header',
+																							content: [
+																								{
+																									elem: 'name',
+																									content: [
+																										{
+																											elem: 'radio',
+																											elemMods: { view: 'default' }
+																										},
+																										{
+																											block: 'text',
+																											mods: { view: 'primary', size: 's', weight: 'bold' },
+																											content: 'Yandex Store'
+																										}
+																									]
+																								},
+																								{
+																									block: 'text',
+																									mods: { view: 'link', size: 's', weight: 'bold' },
+																									content: '$45'
+																								},
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	elem: 'tags',
+																	content: [
+																		{
+																			elem: 'title',
+																			mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
+																			content: [
+																				{
+																					block: 'text',
+																					mods: { view: 'primary', size: 'xl', weight: 'black' },
+																					content: 'Tags'
+																				}
+																			]
+																		},
+																		{
+																			elem: 'item',
+																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'indent-b': 'm' } },
+																			content: [
+																				{
+																					block: 'pt-icon-plus',
+																					mods: { 'vertical-align': 'center' },
+																					content: [
+																						{
+																							elem: 'icon',
+																							elemMods: { 'indent-right': 's' },
+																							attrs: { 'style': 'padding: var(--space-xs); background-color: #027EFF; background-size: 16px; border-radius: 50%;' },
+																							mix: { block: 'icon', mods: { 'fave-1': 's-inverse' } }
 																						},
 																						{
-																							block: 'text',
-																							mods: { view: 'link', size: 's', weight: 'bold' },
-																							content: '$65'
-																						},
+																							block: 'content',
+																							content: [
+																								{
+																									block: 'text',
+																									mods: { size: 'm', weight: 'light', display: 'inline' },
+																									content: '10 November'
+																								}
+																							]
+																						}
 																					]
 																				}
 																			]
 																		},
 																		{
 																			elem: 'item',
+																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'indent-b': 'm' } },
 																			content: [
 																				{
-																					elem: 'item-header',
+																					block: 'pt-icon-plus',
+																					mods: { 'vertical-align': 'center' },
 																					content: [
 																						{
-																							elem: 'name',
+																							elem: 'icon',
+																							elemMods: { 'indent-right': 's' },
+																							attrs: { 'style': 'padding: var(--space-xs); background-color: #027EFF; background-size: 16px; border-radius: 50%;' },
+																							mix: { block: 'icon', mods: { 'fave-1': 's-inverse' } }
+																						},
+																						{
+																							block: 'content',
 																							content: [
 																								{
-																									elem: 'radio',
-																									elemMods: { view: 'default' }
-																								},
-																								{
 																									block: 'text',
-																									mods: { view: 'primary', size: 's', weight: 'bold' },
-																									content: 'Yandex Store'
+																									mods: { size: 'm', weight: 'light', display: 'inline' },
+																									content: 'Pegi 18'
 																								}
 																							]
-																						},
-																						{
-																							block: 'text',
-																							mods: { view: 'link', size: 's', weight: 'bold' },
-																							content: '$45'
-																						},
-																					]
-																				}
-																			]
-																		}
-																	]
-																}
-															]
-														},
-														{
-															elem: 'tags',
-															mix: { block: 'decorator', mods: { 'space-h': 'l' } },
-															content: [
-																{
-																	elem: 'title',
-																	mix: { block: 'decorator', mods: { 'indent-b': 'l' } },
-																	content: [
-																		{
-																			block: 'text',
-																			mods: { view: 'primary', size: 'xl', weight: 'black' },
-																			content: 'Tags'
-																		}
-																	]
-																},
-																{
-																	elem: 'item',
-																	mix: { block: 'pt-list', elem: 'item', elemMods: { 'indent-b': 'm' } },
-																	content: [
-																		{
-																			block: 'pt-icon-plus',
-																			mods: { 'vertical-align': 'center' },
-																			content: [
-																				{
-																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
-																					attrs: { 'style': 'padding: var(--space-xs); background-color: #027EFF; background-size: 16px; border-radius: 50%;' },
-																					mix: { block: 'icon', mods: { 'fave-1': 's-inverse' } }
-																				},
-																				{
-																					block: 'content',
-																					content: [
-																						{
-																							block: 'text',
-																							mods: { size: 'm', weight: 'light', display: 'inline' },
-																							content: '10 November'
 																						}
 																					]
 																				}
 																			]
-																		}
-																	]
-																},
-																{
-																	elem: 'item',
-																	mix: { block: 'pt-list', elem: 'item', elemMods: { 'indent-b': 'm' } },
-																	content: [
+																		},
 																		{
-																			block: 'pt-icon-plus',
-																			mods: { 'vertical-align': 'center' },
+																			elem: 'item',
+																			mix: { block: 'pt-list', elem: 'item', elemMods: { 'indent-b': 'm' } },
 																			content: [
 																				{
-																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
-																					attrs: { 'style': 'padding: var(--space-xs); background-color: #027EFF; background-size: 16px; border-radius: 50%;' },
-																					mix: { block: 'icon', mods: { 'fave-1': 's-inverse' } }
-																				},
-																				{
-																					block: 'content',
+																					block: 'pt-icon-plus',
+																					mods: { 'vertical-align': 'center' },
+																					mix: { block: 'decorator', mods: { 'indent-r': 'l' } },
 																					content: [
 																						{
-																							block: 'text',
-																							mods: { size: 'm', weight: 'light', display: 'inline' },
-																							content: 'Pegi 18'
-																						}
-																					]
-																				}
-																			]
-																		}
-																	]
-																},
-																{
-																	elem: 'item',
-																	mix: { block: 'pt-list', elem: 'item', elemMods: { 'indent-b': 'm' } },
-																	content: [
-																		{
-																			block: 'pt-icon-plus',
-																			mods: { 'vertical-align': 'center' },
-																			mix: { block: 'decorator', mods: { 'indent-r': 'l' } },
-																			content: [
-																				{
-																					elem: 'icon',
-																					elemMods: { 'indent-right': 's' },
-																					attrs: { 'style': 'padding: var(--space-xs); background-color: #027EFF; background-size: 16px; border-radius: 50%;' },
-																					mix: { block: 'icon', mods: { 'fave-1': 's-inverse' } }
-																				},
-																				{
-																					block: 'content',
-																					content: [
+																							elem: 'icon',
+																							elemMods: { 'indent-right': 's' },
+																							attrs: { 'style': 'padding: var(--space-xs); background-color: #027EFF; background-size: 16px; border-radius: 50%;' },
+																							mix: { block: 'icon', mods: { 'fave-1': 's-inverse' } }
+																						},
 																						{
-																							block: 'text',
-																							mods: { size: 'm', weight: 'light', display: 'inline' },
-																							content: 'Sony Enterteiment'
+																							block: 'content',
+																							content: [
+																								{
+																									block: 'text',
+																									mods: { size: 'm', weight: 'light', display: 'inline' },
+																									content: 'Sony Enterteiment'
+																								}
+																							]
 																						}
 																					]
 																				}

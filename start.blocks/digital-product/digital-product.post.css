@@ -1,11 +1,24 @@
 .digital-product {
-	min-height: 456px;
-	box-sizing: border-box;
+	background-color: var(--color-default);
 	&__cover {
 		height: 160px;
 		overflow: hidden;
 		.image {
 			width: 100%;
+		}
+	}
+
+	&__content {
+		&:before {
+			content: '';
+			position: absolute;
+			width: 40px;
+			height: 6px;
+			left: 50%;
+			margin-top: calc(-1*var(--space-xl));
+			margin-left: calc(-1*var(--space-l));
+			background-color: var(--color-ghost);
+			border-radius: 3px;
 		}
 	}
 }

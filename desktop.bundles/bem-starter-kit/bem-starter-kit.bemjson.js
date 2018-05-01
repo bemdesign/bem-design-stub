@@ -1227,17 +1227,18 @@ module.exports = {
 									content: [
 										{
 											elem: 'fraction',
-											attrs: {
-												'style': 'background-color: var(--color-default);'
-											},
 											elemMods: { col: '4'},
 											content: [
 												{
 													block: 'play-list',
-													mix: { block: 'decorator', mods: { 'space-a': 'l' } },
+													mix: [
+														{ block: 'pt-card', mods:{ view: 'default' }},
+														{ block: 'decorator', mods: { 'space-a': 'l' }}
+													],
 													content: [
 														{
 															elem: 'header',
+															
 															content: [
 																{
 																	block: 'pt-icon-plus',
@@ -2804,9 +2805,6 @@ module.exports = {
 									content: [
 										{
 											elem: 'fraction',
-											attrs: {
-												'style': 'background-color: var(--color-default);'
-											},
 											elemMods: { col: '4'},
 											content: [
 												{

@@ -18,15 +18,15 @@
 	}
 	&__description {
 		padding-top: 96px !important;
-		background: #027EFF;
+		background: var(--color-bg-default);
 	}
 	&__feedback {
-		background: var(--color-default);
+		background: var(--color-bg-default);
 	}
 	&__info {
-		background: var(--color-default);
+		background: var(--color-bg-default);
 	}
 	&__action {
-		background: var(--color-default);
+		background: var(--color-bg-default);
 	}
 }

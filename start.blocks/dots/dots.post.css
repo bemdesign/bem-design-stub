@@ -14,7 +14,7 @@
 		margin-right: var(--space-xs);
 
 		&_view {
-			&_default { background-color: var(--color-border-control); }
+			&_default { background-color: var(--color-bg-border); }
 			&_active { background-color: var(--color-link); }
 		}
 

@@ -8,7 +8,7 @@
 	&__footer {
 		&_state {
 			&_fold {
-				background: var(--color-default);
+				background: var(--color-bg-default);
 			}
 			&_unfold {
 				background: var(--color-link);

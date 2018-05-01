@@ -1,17 +1,17 @@
 .payment {
 	&_view {
 		&_whole {
-			background: var(--color-default);
+			background: var(--color-bg-default);
 		}
 		&_divided {
-			background: var(--color-default);
+			background: var(--color-bg-default);
 		}
 	}
 
 	&__header,
 	&__methods,
 	&__button {
-		background: var(--color-default);
+		background: var(--color-bg-default);
 	}
 
 	&__info {

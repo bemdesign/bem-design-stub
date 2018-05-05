@@ -1,10 +1,8 @@
 .friendlist {
 	min-height: 456px;
-	box-sizing: border-box;
+	overflow: hidden;
 	&__group {
-		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-between;
 	}
 
 	&__letter {
@@ -12,7 +10,7 @@
 	}
 
 	&__item {
-		width: var(--space-xxxxxxl);
+		width: 80px;
 		text-align: center;
 		position: relative;
 	}

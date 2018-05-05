@@ -7,9 +7,20 @@
 	}
 	&__description {
 		background-color: var(--color-bg-default);
+		&:before {
+			content: '';
+			position: absolute;
+			width: 40px;
+			height: 6px;
+			left: 50%;
+			/* margin-top: calc(-1*var(--space-xl)); */
+			margin-left: calc(-1*var(--space-l));
+			background-color: var(--color-typo-secondary);
+			border-radius: 3px;
+		}
 	}
 	&__feedback {
-		background-color: var(--color-bg-default); 
+		background-color: var(--color-bg-default);
 	}
 	&__info {
 		background-color: var(--color-bg-default);

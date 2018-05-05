@@ -1048,7 +1048,7 @@ module.exports = {
 																								{
 																									block: 'text',
 																									mods: { view: 'link', size: 's', weight: 'bold' },
-																									content: '$65'
+																									content: '$129'
 																								},
 																							]
 																						}
@@ -1077,7 +1077,7 @@ module.exports = {
 																								{
 																									block: 'text',
 																									mods: { view: 'link', size: 's', weight: 'bold' },
-																									content: '$45'
+																									content: '$99'
 																								},
 																							]
 																						}
@@ -1111,16 +1111,19 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
-																							attrs: { 'style': 'padding: var(--space-xs); background-color: #027EFF; background-size: 16px; border-radius: 50%;' },
-																							mix: { block: 'icon', mods: { 'fave-1': 's-inverse' } }
+																							elemMods: { 'indent-r': 's' },
+																							mix: { block: 'icon-circle' },
+																							content: {
+																								block: 'icon',
+																								mods: { name: 'marker', size: 's', view: 'primary' }
+																							}
 																						},
 																						{
-																							block: 'content',
+																							elem: 'block',
 																							content: [
 																								{
 																									block: 'text',
-																									mods: { size: 'm', weight: 'light', display: 'inline' },
+																									mods: { size: 's', weight: 'light', display: 'inline' },
 																									content: '10 November'
 																								}
 																							]
@@ -1139,16 +1142,15 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
-																							attrs: { 'style': 'padding: var(--space-xs); background-color: #027EFF; background-size: 16px; border-radius: 50%;' },
-																							mix: { block: 'icon', mods: { 'fave-1': 's-inverse' } }
+																							elemMods: { 'indent-r': 's' },
+																							mix: { block: 'icon-circle' },
 																						},
 																						{
-																							block: 'content',
+																							elem: 'block',
 																							content: [
 																								{
 																									block: 'text',
-																									mods: { size: 'm', weight: 'light', display: 'inline' },
+																									mods: { size: 's', weight: 'light', display: 'inline' },
 																									content: 'Pegi 18'
 																								}
 																							]
@@ -1168,16 +1170,15 @@ module.exports = {
 																					content: [
 																						{
 																							elem: 'icon',
-																							elemMods: { 'indent-right': 's' },
-																							attrs: { 'style': 'padding: var(--space-xs); background-color: #027EFF; background-size: 16px; border-radius: 50%;' },
-																							mix: { block: 'icon', mods: { 'fave-1': 's-inverse' } }
+																							elemMods: { 'indent-r': 's' },
+																							mix: { block: 'icon-circle' },
 																						},
 																						{
-																							block: 'content',
+																							elem: 'block',
 																							content: [
 																								{
 																									block: 'text',
-																									mods: { size: 'm', weight: 'light', display: 'inline' },
+																									mods: { size: 's', weight: 'light', display: 'inline' },
 																									content: 'Sony Enterteiment'
 																								}
 																							]
@@ -1225,13 +1226,12 @@ module.exports = {
 												{
 													block: 'play-list',
 													mix: [
-														{ block: 'pt-card', mods:{ view: 'default' }},
+														{ block: 'pt-card', mods: { view: 'default' } },
 														{ block: 'decorator', mods: { 'space-a': 'l' }}
 													],
 													content: [
 														{
 															elem: 'header',
-
 															content: [
 																{
 																	block: 'pt-icon-plus',
@@ -1253,7 +1253,7 @@ module.exports = {
 																				{
 																					block: 'text',
 																					mix: { block: 'decorator', mods: { 'indent-b': 's' } },
-																					mods: { view: 'primary', size: 'xl', weight: 'bold' },
+																					mods: { view: 'primary', size: 'xl', weight: 'black' },
 																					content: "Pitchfork's Best New Music"
 																				},
 																				{
@@ -1435,20 +1435,19 @@ module.exports = {
 																},
 																{
 																	block: 'text',
-																	mods: { view: 'primary', size: 'xxl', weight: 'bold', align: 'center' },
+																	mods: { view: 'primary', size: 'xxl', weight: 'black', align: 'center' },
 																	content: 'Damn'
 																},
 																{
 																	block: 'text',
 																	mix: { block: 'decorator', mods: { 'indent-b': 'xl' } },
-																	mods: { view: 'link', size: 's', weight: 'semibold', align: 'center' },
+																	mods: { view: 'link', size: 'm', weight: 'semibold', align: 'center' },
 																	content: 'Kendrick Lamar'
 																},
 																{
 																	block: 'button',
-																	mix: { block: 'text', mods: { align: 'center' } },
-																	mods: { theme: 'islands', size: 'm', view: 'action' },
-																	text: 'Shuffle play'
+																	mods: { theme: 'islands', size: 's', view: 'action' },
+																	text: 'Shuffle'
 																}
 															]
 														},
@@ -1597,7 +1596,7 @@ module.exports = {
 											content: [
 												{
 													block: 'track',
-													mix: { block: 'pt-card', mods: { view: 'default', shadow: 'cloud' } },
+													mix: { block: 'pt-card', mods: { view: 'default' } },
 													content: [
 														{
 															elem: 'about',
@@ -1611,12 +1610,12 @@ module.exports = {
 																{
 																	block: 'text',
 																	mix: { block: 'decorator', mods: { 'indent-t': 'xxl' } },
-																	mods: { view: 'primary', size: 'xl', weight: 'bold' },
+																	mods: { view: 'primary', size: 'xl', weight: 'black' },
 																	content: 'All Down Hill From Here'
 																},
 																{
 																	block: 'text',
-																	mods: { view: 'link', size: 'm' },
+																	mods: { view: 'link', size: 'm', weight: 'semibold' },
 																	content: 'Kendrick Lamar • DAMN.'
 																},
 															]
@@ -1635,15 +1634,15 @@ module.exports = {
 																	content: [
 																		{
 																			block: 'icon',
-																			mods: { name: 'arrow-left', size: 's', view: 'primary' }
+																			mods: { name: 'previous', size: 's', view: 'primary' }
 																		},
 																		{
 																			block: 'icon',
-																			mods: { name: 'arrow-left', size: 's', view: 'primary' }
+																			mods: { name: 'play', size: 's', view: 'primary' }
 																		},
 																		{
 																			block: 'icon',
-																			mods: { name: 'arrow-left', size: 's', view: 'primary' }
+																			mods: { name: 'next', size: 's', view: 'primary' }
 																		}
 																	]
 																}
@@ -1683,12 +1682,14 @@ module.exports = {
 											content: [
 												{
 													block: 'friendlist',
-													attrs: { style: 'height: 456px; overflow: hidden;'},
-													mix: { block: 'pt-list', mods: { view: 'default' } },
+													mix: [
+														{ block: 'pt-list', mods: { view: 'default' } },
+														{ block: 'decorator', mods: { 'space-a': 'l' } }
+													],
 													content: [
 														{
 															elem: 'group',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-h': 's', 'space-v': 's'} },
+															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-v': 's'} },
 															content: [
 																{
 																	elem: 'item',
@@ -1752,12 +1753,12 @@ module.exports = {
 														},
 														{
 															elem: 'group',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-h': 's', 'space-v': 's'} },
+															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-v': 's'} },
 															content: [
 																{
 																	elem: 'letter',
 																	mix: [
-																		{ block: 'text', mods: { view: 'primary', size: 'xl', weight: 'bold' } },
+																		{ block: 'text', mods: { view: 'primary', size: 'xl', weight: 'black' } },
 																		{ block: 'decorator', mods: { 'indent-b': 'xs', 'space-l': 'xs' } }
 																	],
 																	content: 'A'
@@ -1816,12 +1817,12 @@ module.exports = {
 														},
 														{
 															elem: 'group',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-h': 's', 'space-v': 's'} },
+															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-v': 's'} },
 															content: [
 																{
 																	elem: 'letter',
 																	mix: [
-																		{ block: 'text', mods: { view: 'primary', size: 'xl', weight: 'bold' } },
+																		{ block: 'text', mods: { view: 'primary', size: 'xl', weight: 'black' } },
 																		{ block: 'decorator', mods: { 'indent-b': 'xs', 'space-l': 'xs' } }
 																	],
 																	content: 'B'
@@ -1965,11 +1966,14 @@ module.exports = {
 												{
 													block: 'activities',
 													attrs: { style: 'height: 456px; overflow: hidden;'},
-													mix: { block: 'pt-list', mods: { view: 'default' } },
+													mix: [
+														{ block: 'pt-list', mods: { view: 'default' } },
+														{ block: 'decorator', mods: { 'space-a': 'l' } },
+													],
 													content: [
 														{
 															elem: 'item',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
+															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-v': 's' }},
 															content: [
 																{
 																	elem: 'avatar',
@@ -2010,7 +2014,7 @@ module.exports = {
 														},
 														{
 															elem: 'item',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
+															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-v': 's' }},
 															content: [
 																{
 																	elem: 'avatar',
@@ -2051,7 +2055,7 @@ module.exports = {
 														},
 														{
 															elem: 'item',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
+															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-v': 's' }},
 															content: [
 																{
 																	elem: 'avatar',
@@ -2092,7 +2096,7 @@ module.exports = {
 														},
 														{
 															elem: 'item',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
+															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-v': 's' }},
 															content: [
 																{
 																	elem: 'avatar',
@@ -2133,7 +2137,7 @@ module.exports = {
 														},
 														{
 															elem: 'item',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
+															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-v': 's' }},
 															content: [
 																{
 																	elem: 'avatar',
@@ -2174,7 +2178,7 @@ module.exports = {
 														},
 														{
 															elem: 'item',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
+															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-v': 's' }},
 															content: [
 																{
 																	elem: 'avatar',
@@ -2215,7 +2219,7 @@ module.exports = {
 														},
 														{
 															elem: 'item',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
+															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-v': 's' }},
 															content: [
 																{
 																	elem: 'avatar',
@@ -2256,7 +2260,7 @@ module.exports = {
 														},
 														{
 															elem: 'item',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
+															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-v': 's' }},
 															content: [
 																{
 																	elem: 'avatar',
@@ -2297,7 +2301,7 @@ module.exports = {
 														},
 														{
 															elem: 'item',
-															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-a': 's' }},
+															mix: { block: 'pt-list', elem: 'item', elemMods: { distribute: 'default', 'space-v': 's' }},
 															content: [
 																{
 																	elem: 'avatar',
@@ -2428,7 +2432,7 @@ module.exports = {
 															mix: [
 																{ block: 'theme', mods: { color: 'liquid-brand' }},
 																{ block: 'component', mods: { liquid: 'brand' }},
-																{ block: 'pt-list', elem: 'item', elemMods: { 'space-a': 'l' }},
+																{ block: 'pt-list', elem: 'item', elemMods: { 'space-a': 'l' } },
 															],
 															content: [
 																{
@@ -2437,28 +2441,28 @@ module.exports = {
 																	content: [
 																		{
 																			block: 'text',
-																			mods: { view: 'primary', size: 'xl', weight: 'bold' },
+																			mods: { view: 'primary', size: 'xl', weight: 'black' },
 																			content: 'Subzero!'
 																		},
 																		{
 																			block: 'text',
-																			mods: { view: 'primary', size: 'xl', weight: 'bold' },
+																			mods: { view: 'primary', size: 'xl', weight: 'black' },
 																			content: '4.5'
 																		}
 																	]
 																},
 																{
 																	elem: 'rating',
-																	mix: { block: 'pt-list', elem: 'item', elemMods: { 'indent-b': 'm', distribute: 'between' } },
+																	mix: { block: 'pt-list', elem: 'item', elemMods: { 'indent-b': 'xl', distribute: 'between' } },
 																	content: [
 																		{
 																			block: 'text',
-																			mods: { view: 'primary', size: 'l', weight: 'light' },
+																			mods: { view: 'secondary', size: 'm', weight: 'semibold' },
 																			content: 'Cafe'
 																		},
 																		{
 																			block: 'text',
-																			mods: { view: 'primary', size: 'l', weight: 'light' },
+																			mods: { view: 'secondary', size: 'm', weight: 'semibold' },
 																			content: '324 reviews'
 																		}
 																	]

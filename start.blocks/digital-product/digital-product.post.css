@@ -1,5 +1,5 @@
 .digital-product {
-	background-color: var(--color-default);
+	background-color: var(--color-bg-default);
 	&__cover {
 		height: 160px;
 		overflow: hidden;
@@ -17,7 +17,7 @@
 			left: 50%;
 			margin-top: calc(-1*var(--space-xl));
 			margin-left: calc(-1*var(--space-l));
-			background-color: var(--color-ghost);
+			background-color: var(--color-bg-ghost);
 			border-radius: 3px;
 		}
 	}

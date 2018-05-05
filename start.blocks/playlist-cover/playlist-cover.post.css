@@ -9,4 +9,8 @@
 			border-radius: 6px;
 		}
 	}
+
+	.image {
+		margin-bottom: -6px;
+	}
 }

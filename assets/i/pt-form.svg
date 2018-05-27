@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="460px" height="460px" viewBox="0 0 460 460" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>pt-form</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="pt-form" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(29.000000, 56.000000)">
+            <polygon id="Rectangle-7-Copy" fill="#000000" opacity="0.100000001" points="0 0 390 18 293 339 85 356"></polygon>
+            <polygon id="Rectangle-4" fill="#000000" points="43 49.9511401 353 35 353 305 43 285.651466"></polygon>
+            <rect id="Rectangle" stroke="#000000" stroke-width="4" fill="#FFFFFF" x="143" y="147" width="231" height="36"></rect>
+            <rect id="Rectangle-Copy" stroke="#000000" stroke-width="4" fill="#FFFFFF" x="143" y="203" width="231" height="36"></rect>
+            <polyline id="Path-3" stroke="#1373ED" stroke-width="4" points="63 171 73.5039211 160 84.0409374 169.953691 94.0694439 160 104.055477 169.953691 114.05055 160 125 171"></polyline>
+            <polyline id="Path-3-Copy" stroke="#1373ED" stroke-width="4" points="63 225 73.5039211 214 84.0409374 223.953691 94.0694439 214 104.055477 223.953691 114.05055 214 125 225"></polyline>
+            <path d="M145,85 L321,85" id="Path-2-Copy-5" stroke="#FFFFFF" stroke-width="4" fill="#000000"></path>
+            <path d="M145,102 L270,102" id="Path-2-Copy-6" stroke="#FFFFFF" stroke-width="4" fill="#000000"></path>
+            <path d="M97,77.937124 L74.5013808,116.086957 L119.498619,116.086957 L97,77.937124 Z" id="Triangle-3-Copy" stroke="#FFFFFF" stroke-width="4" fill="#000000"></path>
+            <rect id="Rectangle-3-Copy-47" fill="#1373ED" x="203" y="279" width="128" height="40" rx="20"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,3 +1,9 @@
 .activities {
-
+	min-height: 456px;
+	&__item {
+		align-items: center;
+	}
+	&__avatar-img {
+		width: 100%;
+	}
 }

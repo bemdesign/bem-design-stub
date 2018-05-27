@@ -1,3 +1,18 @@
 .product {
-
+	min-height: 456px;
+	box-sizing: border-box;
+	align-items: flex-end;
+	width: calc(100% - 2*var(--space-l));
+	border-radius: 8px;
+	margin: var(--space-l);
+	&__footer {
+		&_state {
+			&_fold {
+				background: var(--color-bg-default);
+			}
+			&_unfold {
+				background: var(--color-link);
+			}
+		}
+	}
 }

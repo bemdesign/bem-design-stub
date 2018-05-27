@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="468" height="240" viewBox="0 0 468 240" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="a" width="129" height="240"/>
+    <rect id="b" width="130" height="240" x="169"/>
+    <rect id="c" width="129" height="240" x="339"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="468" height="240"/>
+    <rect width="40" height="40" x="299" y="48" fill="#007BFF"/>
+    <rect width="40" height="40" x="129" y="48" fill="#007BFF"/>
+    <use fill="#FEE5ED" xlink:href="#a"/>
+    <rect width="128" height="239" x=".5" y=".5" stroke="#FF92B3"/>
+    <use fill="#FEE5ED" xlink:href="#b"/>
+    <rect width="129" height="239" x="169.5" y=".5" stroke="#FF92B3"/>
+    <g>
+      <use fill="#FEE5ED" xlink:href="#c"/>
+      <rect width="128" height="239" x="339.5" y=".5" stroke="#FF92B3"/>
+    </g>
+  </g>
+</svg>

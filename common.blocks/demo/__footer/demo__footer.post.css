@@ -1,4 +1,7 @@
-.demo__footer {
-	background: var(--color-inverse);
-	text-align: center;
+.demo__new-menu {
+	flex: 0 0 auto;
+}
+
+@media screen and (max-width: 1199px) {
+	.demo__new-menu { display: none; }
 }

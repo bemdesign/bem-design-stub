@@ -1,0 +1,13 @@
+.footer {
+	padding: var(--space-xxxl) 0;
+	&__container {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__social {
+		display: flex;
+		flex-flow: row nowrap;
+	}
+}

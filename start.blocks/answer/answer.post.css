@@ -1,3 +1,9 @@
 .answer {
+	min-height: 456px;
+	box-sizing: border-box;
+ 	background: var(--color-link);
 
+	&__logo {
+		opacity: 0.3;
+	}
 }

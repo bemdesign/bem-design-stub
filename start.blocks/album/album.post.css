@@ -1,0 +1,7 @@
+.album {
+	min-height: 456px;
+	background: var(--color-bg-default);
+	&__info {
+		text-align: center;
+	}
+}

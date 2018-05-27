@@ -1,5 +1,11 @@
 .demo {
-	padding-right: 70px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+html {
+	height: 100%;
 }
 
 @media screen and (max-width: 1199px) {

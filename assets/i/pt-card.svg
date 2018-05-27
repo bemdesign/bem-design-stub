@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="460px" height="460px" viewBox="0 0 460 460" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>pt-card</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="pt-card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(18.000000, 34.000000)">
+            <polygon id="Rectangle-7-Copy-3" fill="#000000" opacity="0.100000001" points="19 76 391 39 425 330 0 350"></polygon>
+            <polygon id="Rectangle-Copy-11" fill="#000000" points="74 177 348 174 348 392 74 382"></polygon>
+            <rect id="Rectangle-3-Copy-39" stroke="#FFFFFF" stroke-width="4" x="96" y="214" width="147" height="26"></rect>
+            <path d="M94,264 L328,264" id="Path-2-Copy-3" stroke="#FFFFFF" stroke-width="4"></path>
+            <path d="M94,286 L328,286" id="Path-2-Copy-4" stroke="#FFFFFF" stroke-width="4"></path>
+            <path d="M94,307 L284,307" id="Path-2-Copy-7" stroke="#FFFFFF" stroke-width="4"></path>
+            <circle id="Oval-Copy" fill="#1373ED" cx="109" cy="343" r="15"></circle>
+            <g id="Group-2-Copy" transform="translate(139.000000, 338.000000)" stroke="#FFFFFF" stroke-width="4">
+                <polyline id="Path-3" points="0 11 10.5039211 0 21.0409374 9.95369121 31.0694439 0 41.0554767 9.95369121 51.0505496 0 62 11"></polyline>
+                <polyline id="Path-3-Copy" points="60 11 70.5039211 0 81.0409374 9.95369121 91.0694439 0 101.055477 9.95369121 111.05055 0 122 11"></polyline>
+            </g>
+            <polygon id="Rectangle-Copy-12" stroke="#000000" stroke-width="4" fill="#FFFFFF" points="58 0 331 20 331 188 58 198"></polygon>
+            <polygon id="Combined-Shape-Copy-5" fill="#1373ED" points="172.275874 114.627346 212.203422 61 274 144 109 144 150.406844 81.75"></polygon>
+        </g>
+    </g>
+</svg>

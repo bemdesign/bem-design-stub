@@ -1,9 +1,9 @@
 .demo__content {
-	/*position: relative;*/
 	display: block;
-	padding-top: var(--space-xxl);
+	padding: 132px 0px calc( 2 * $space-xxxxxl);
 	margin: auto;
 	width: 1140px;
+	flex: 1 0 auto;
 
 	&_size {
 		&_l {
@@ -14,13 +14,6 @@
 		}
 		&_s {
 			width: 740px;
-		}
-	}
-	&_display {
-		&_flex {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
 		}
 	}
 }

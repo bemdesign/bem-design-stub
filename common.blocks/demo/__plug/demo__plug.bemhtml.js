@@ -7,13 +7,13 @@ block('demo').elem('plug')(
 			content: [
 			{
 				elem: 'plug-content',
-				mix: { block: 'pt-card', elem: 'content', elemMods: { 'space-a': 'xl' } },
+				mix: { block: 'pt-card', elem: 'content', elemMods: { 'space-a': 'xl' }},
 				content: [
 				{
 					elem: 'plug-illustration',
 					mix: [
 						{ block: 'pt-card', elem: 'image' },
-						{ block: 'decorator', mods: {'indent-b': 'xxl'} }
+						{ block: 'decorator', mods: {'indent-b': 'xxl'}}
 					],
 					content: {
 						block: 'image',
@@ -22,21 +22,21 @@ block('demo').elem('plug')(
 				},
 				{
 					elem: 'plug-description',
-					mix: { block: 'text', mods: { font: 'mono', size: 'xxl', weight: 'bold' } },
-					content: 'Scalable design system based on BEM'
+					mix: { block: 'text', mods: { size: 'xxl', weight: 'bold', align: 'center' }},
+					content: 'Декларативная дизайн-система'
 				}]
 			},
 			{
 				elem: 'plug-action',
-				mix: { block: 'pt-card', elem: 'footer', elemMods: {'space-a': 'xl', 'align': 'between' } },
+				mix: { block: 'pt-card', elem: 'footer', elemMods: {'space-a': 'xl', 'align': 'between' }},
 				content: [
 				{
 					block: 'button',
-					mods: { theme: 'promo', 'size': 'xl', type: 'link', view: 'action', font: 'mono', weight: 'bold', shadow: 'action' },
+					mods: { theme: 'islands', size: 'xl', view: 'action' },
 					url: 'https://github.com/bemdesign',
 					mix: { block: 'demo', elem: 'plug-button' },
 					text: [
-						{ block: 'text', mods: { font: 'mono', style: 'italic', display: 'inline'}, content: 'Visit '},
+						{ block: 'text', mods: { style: 'italic', display: 'inline'}, content: 'Visit '},
 						'Github'
 					]
 				},
@@ -44,13 +44,13 @@ block('demo').elem('plug')(
 					elem: 'plug-soclink',
 					elemMods: { icon: 'telegram'},
 					tag: 'a',
-					attrs: { 'href': 'https://t.me/bem_design'}
+					attrs: { 'href': 'https://t.me/whitepapertools'}
 				},
 				{
 					elem: 'plug-soclink',
 					elemMods: { icon: 'twitter'},
 					tag: 'a',
-					attrs: { 'href': 'https://twitter.com/bem_design'}
+					attrs: { 'href': 'https://twitter.com/whitepapertools'}
 				}]
 			}]
 		}]

@@ -1,0 +1,7 @@
+.brand-logo {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	transition: 0.3s;
+}

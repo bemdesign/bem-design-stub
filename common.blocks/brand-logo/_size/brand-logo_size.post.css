@@ -1,0 +1,18 @@
+.brand-logo {
+	&_size_s {
+		width: 40px;
+		height: 40px;
+	}
+	&_size_m {
+		width: 60px;
+		height: 60px;
+	}
+	&_size_l {
+		width: 80px;
+		height: 80px;
+	}
+	&_size_xl {
+		width: 120px;
+		height: 120px;
+	}
+}

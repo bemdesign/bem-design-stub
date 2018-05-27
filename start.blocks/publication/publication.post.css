@@ -1,3 +1,29 @@
 .publication {
+	min-height: 456px;
+	box-sizing: border-box;
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: var(--space-m);
+	}
 
+	&__image {
+		margin-top: var(--space-xxxl);
+
+		img {
+			width: 100%;
+			margin-bottom: var(--space-xs);
+		}
+	}
+
+	&__article-content {
+		&::first-letter {
+			font-size: 72px;
+			font-weight: 600;
+			float: left;
+			padding-top: 0.35em;
+			padding-bottom: 0.2em;
+			padding-right: 0.15em;
+		}
+	}
 }

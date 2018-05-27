@@ -1,3 +1,29 @@
 .informer {
+  min-height: 456px;
+  box-sizing: border-box;
+  &_view {
+    &_alert {
+      background-color: var(--color-bg-alert);
+    }
+    &_warning {
+      background-color: var(--color-bg-warning);
+    }
+    &_success {
+      background-color: var(--color-bg-success);
+    }
+  }
 
+  &__icon-wrapper {
+    width: 24px;
+    margin: var(--space-xxxl) auto var(--space-s);
+    padding: var(--space-xl);
+    border-radius: 50%;
+    border: 2px solid var(--color-bg-default);
+  }
+
+  &__info {
+    padding: var(--space-m);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 8px;
+  }
 }

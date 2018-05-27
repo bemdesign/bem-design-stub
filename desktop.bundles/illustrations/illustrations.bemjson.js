@@ -11,28 +11,27 @@ module.exports = {
 	],
 	mix: {
 		block: 'theme',
-		mods: { color: 'default', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'ibm' }
+		mods: { color: 'whitepaper-default', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'museo' }
 	},
 	scripts: [{ elem: 'js', url: 'illustrations.min.js' }],
 	mods: { theme: 'islands' },
 	content: [
-	{
-		block: 'demo',
-		mix: [
-			{ block: 'b-page', elem: 'content' },
-			{ block: 'theme' }],
-		content: [
+
+		/* Menu */
 		{
+			block: 'new-menu',
+		},
+		/* /Menu */
+
+		/* Content */	
+		{
+			block: 'demo',
 			elem: 'content',
 			content: [
 			{
-				block: 'demo',
-				elem: 'logo'
-			},
-			{
 				block: 'text',
 				mods: { size: 'xxxxl', weight: 'bold', font: 'sans' },
-				mix: [{ block: 'decorator', mods: { 'indent-b': 'xxxxxl' } }, { block: 'demo', elem: 'title' }],
+				mix: { block: 'decorator', mods: { 'indent-b': 'xxxxxl' }},
 				content: 'Illustrations'
 			},
 			{
@@ -170,8 +169,13 @@ module.exports = {
 				}]
 			}]
 		},
+		/* Content */
+
+		/* Footer */
 		{
-			elem: 'footer'
-		}]
-	}]
+			block: 'footer',
+		}
+		/* /Footer */
+
+	]
 };

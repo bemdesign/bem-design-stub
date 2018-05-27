@@ -1,0 +1,31 @@
+.offer {
+  /* &_size {
+    &_default {
+      height: 280px;
+    }
+  } */
+  min-height: 456px;
+  box-sizing: border-box;
+  &__amount {
+    height: 264px;
+    align-items: center;
+  }
+
+  &__description {
+    display: flex;
+    align-items: center;
+    height: 88px;
+  }
+
+  &__background {
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.6);
+    }
+  }
+}

@@ -14,28 +14,26 @@ module.exports = {
 	mods: { theme: 'islands' },
 	mix: {
 		block: 'theme',
-		mods: { color: 'default', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'ibm' }
+		mods: { color: 'whitepaper-default', space: 'default', size: 'default', gap: 'small', menu: 'default', font: 'museo' }
 	},
 	content: [
+
+		/* Menu */
 		{
-		block: 'demo',
-		mix: [
-			{ block: 'b-page', elem: 'content' },
-			{ block: 'theme' }
-		],
-		content: [
+			block: 'new-menu',
+		},
+		/* /Menu */
+		
+		/* Content */
 		{
+			block: 'demo',
 			elem: 'content',
 			elemMods: { size: 'm' },
 			content: [
 			{
-				block: 'demo',
-				elem: 'logo'
-			},
-			{
 				block: 'text',
 				mods: { size: 'xxxxl', weight: 'bold', view: 'primary', font: 'sans' },
-				mix: [{ block: 'decorator', mods: { 'indent-b': 'xxxxxl' } }, { block: 'demo', elem: 'title' }],
+				mix: { block: 'decorator', mods: { 'indent-b': 'xxxxxl' }},
 				content: 'Animations'
 			},
 			{
@@ -48,7 +46,11 @@ module.exports = {
 						elem: 'view',
 						mix: [{ block: 'js-paranja' }],
 						content: [
-						'click here',
+						{
+							block: 'text',
+							mods: { view: 'primary', size: 'm' },
+							content: 'click here'
+						},
 						{
 							elem: 'paranja',
 							mix: { block: 'animation', mods: { 'fade': 'out' } },
@@ -72,7 +74,11 @@ module.exports = {
 						elem: 'view',
 						mix: [{ block: 'js-modal-top' }],
 						content: [
-						'click here',
+						{
+							block: 'text',
+							mods: { view: 'primary', size: 'm' },
+							content: 'click here'
+						},
 						{
 							elem: 'modal',
 							attrs: { style: 'display: none;' },
@@ -97,7 +103,11 @@ module.exports = {
 						elem: 'view',
 						mix: [{ block: 'js-modal-bottom' }],
 						content: [
-						'click here',
+						{
+							block: 'text',
+							mods: { view: 'primary', size: 'm' },
+							content: 'click here'
+						},
 						{
 							elem: 'modal',
 							attrs: { style: 'display: none;' },
@@ -122,7 +132,11 @@ module.exports = {
 						elem: 'view',
 						mix: [{ block: 'js-modal-right' }],
 						content: [
-						'click here',
+						{
+							block: 'text',
+							mods: { view: 'primary', size: 'm' },
+							content: 'click here'
+						},
 						{
 							elem: 'modal',
 							attrs: { style: 'display: none;' },
@@ -147,7 +161,11 @@ module.exports = {
 						elem: 'view',
 						mix: [{ block: 'js-modal-left' }],
 						content: [
-						'click here',
+						{
+							block: 'text',
+							mods: { view: 'primary', size: 'm' },
+							content: 'click here'
+						},
 						{
 							elem: 'modal',
 							attrs: { style: 'display: none;' },
@@ -251,8 +269,14 @@ module.exports = {
 				}]
 			}]
 		},
+		/* /Content */
+
+		/* Footer */
 		{
-			elem: 'footer'
-		}]
-	}]
+			block: 'footer',
+		}
+		/* /Footer */
+
+	]
+	
 };

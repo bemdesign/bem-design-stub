@@ -1,0 +1,4 @@
+.card {
+	box-sizing: border-box;
+	background: var(--color-bg-default);
+}

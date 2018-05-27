@@ -1,19 +1,4 @@
 .icon-item {
-	width: 180px;
-	padding: var(--space-l) 0;
-	margin-right: var(--space-s);
-	margin-bottom: var(--space-xl);
-
-	&:nth-child(4n) {
-		margin-right: 0;
-	}
-
-	&__view {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 56px;
-		height: 24px;
-		margin: 0 auto var(--space-m);
-	}
+  padding: var(--space-l);
+  border: 1px solid var(--color-bg-border);
 }

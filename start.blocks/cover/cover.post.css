@@ -1,3 +1,19 @@
 .cover {
-
+	overflow: hidden;
+	padding-top: 128px;
+	min-height: 456px;
+	box-sizing: border-box;
+	&__header {
+		height: 128px;
+		background-color: #0070F0;
+		overflow: hidden;
+		.image {
+			width: 100%;
+		}
+	}
+	&__info {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: var(--space-s);
+	}
 }

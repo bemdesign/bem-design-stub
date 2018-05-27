@@ -1,7 +1,0 @@
-.demo__logo {
-	width: calc(17 * var(--space-xs));
-	height: calc(5.5 * var(--space-xs));
-	position: absolute;
-	top: calc(var(--space-xxxl) + var(--space-xxxs));
-	background: var(--color-inverse);
-}

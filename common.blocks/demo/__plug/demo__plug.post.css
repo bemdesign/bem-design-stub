@@ -11,7 +11,7 @@
 		right: 0;
 		height: 100vh;
 		width: 100vw;
-		background-color: var(--color-default);
+		background-color: var(--color-bg-default);
 		z-index: 9999;
 
 		&-card {

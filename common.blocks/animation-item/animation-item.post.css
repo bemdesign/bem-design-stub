@@ -10,7 +10,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		flex-direction: column;
-		background-color: var(--color-ghost);
+		background-color: var(--color-bg-ghost);
 		margin-bottom: var(--space-l);
 		overflow: hidden;
 	}

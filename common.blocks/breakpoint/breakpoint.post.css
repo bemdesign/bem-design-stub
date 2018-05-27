@@ -1,0 +1,25 @@
+.breakpoint {
+	&__view {
+		height: 40px;
+		margin-bottom: var(--space-s);
+		position: relative;
+		height: 320px;
+		&_size {
+			&_xl {
+				
+			}
+			&_l {
+
+			}
+			&_m {
+
+			}
+			&_s {
+
+			}
+			&_xs {
+
+			}
+		}
+	}
+}

@@ -1,7 +1,0 @@
-.demo__title {
-	margin-left: 160px;
-
-	& > a {
-		color: var(--color-typo-primary);
-	}
-}

@@ -1,6 +1,4 @@
 .typography {
-	margin-bottom: var(--space-xl);
-
 	&__view {
 		margin-bottom: var(--space-s);
 		box-sizing: border-box;
@@ -9,6 +7,6 @@
 		height: 96px;
 		display: flex;
 		align-items: center;
-		background-color: var(--color-ghost);
+		background-color: var(--color-bg-ghost);
 	}
 }

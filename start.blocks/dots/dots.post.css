@@ -1,0 +1,25 @@
+.dots {
+	text-align: center;
+	box-sizing: border-box;
+	&__wrapper {
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+	}
+
+	&__item {
+		width: var(--space-xxs);
+		height: var(--space-xxs);
+		border-radius: 50%;
+		margin-right: var(--space-xs);
+
+		&_view {
+			&_default { background-color: var(--color-bg-border); }
+			&_active { background-color: var(--color-link); }
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

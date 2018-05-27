@@ -1,8 +1,8 @@
 .space__image {
 	height: 96px;
 	width: 96px;
-	margin-right: var(--space-s);
-	background: var(--color-border);
+	background: var(--color-bg-border);
+	margin-bottom: var(--space-s);	
 }
 
 .space-image {

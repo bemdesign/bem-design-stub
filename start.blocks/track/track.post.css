@@ -1,0 +1,11 @@
+.track {
+	min-height: 456px;
+	box-sizing: border-box;
+	&__buttons {
+		display: flex;
+		width: 180px;
+		margin-left: auto;
+		margin-right: auto;
+		justify-content: space-between;
+	}
+}

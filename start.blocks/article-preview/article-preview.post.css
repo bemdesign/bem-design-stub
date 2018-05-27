@@ -1,0 +1,8 @@
+.article-preview {
+	min-height: 456px;
+	box-sizing: border-box;
+	background: var(--color-bg-default);
+	&__footer-wrapper {
+		background-image: linear-gradient(-180deg, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.7) 100%);
+	}
+}

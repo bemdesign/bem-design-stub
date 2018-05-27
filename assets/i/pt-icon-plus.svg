@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="460px" height="460px" viewBox="0 0 460 460" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>pt-icon-plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="pt-icon-plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(43.000000, 76.000000)">
+            <polygon id="Rectangle-7-Copy-3" fill="#000000" opacity="0.100000001" transform="translate(187.000000, 155.500000) scale(-1, -1) translate(-187.000000, -155.500000) " points="47 21 333 0 374 311 0 287"></polygon>
+            <polygon id="Rectangle-3" fill="#000000" points="105 51 295 51 287 101 105 101"></polygon>
+            <polygon id="Rectangle-3-Copy" fill="#000000" points="105 205 295 205 305 255 105 255"></polygon>
+            <polyline id="Path-3" stroke="#1076FC" stroke-width="4" points="144 81 154.503921 70 165.040937 79.9536912 175.069444 70 185.055477 79.9536912 195.05055 70 206 81"></polyline>
+            <polyline id="Path-3-Copy" stroke="#1076FC" stroke-width="4" points="204 81 214.503921 70 225.040937 79.9536912 235.069444 70 245.055477 79.9536912 255.05055 70 266 81"></polyline>
+            <circle id="Oval-2-Copy" stroke="#000000" stroke-width="4" fill="#FFFFFF" cx="95" cy="230" r="36"></circle>
+            <path d="M60.1949176,39.1294449 L66.3502859,109.14676 L122.136332,105.664175 L126.852942,42.9603659 L60.1949176,39.1294449 Z" id="Rectangle" stroke="#000000" stroke-width="4" fill="#FFFFFF"></path>
+            <path d="M70,133 L277,133" id="Path-5-Copy-16" stroke="#000000" stroke-width="4" opacity="0.100000001"></path>
+            <path d="M70,152 L277,152" id="Path-5-Copy-17" stroke="#000000" stroke-width="4" opacity="0.100000001"></path>
+            <path d="M70,171 L213,171" id="Path-5-Copy-19" stroke="#000000" stroke-width="4" opacity="0.100000001"></path>
+            <polyline id="Path-3" stroke="#1076FC" stroke-width="4" points="148 235 158.503921 224 169.040937 233.953691 179.069444 224 189.055477 233.953691 199.05055 224 210 235"></polyline>
+            <polyline id="Path-3-Copy" stroke="#1076FC" stroke-width="4" points="208 235 218.503921 224 229.040937 233.953691 239.069444 224 249.055477 233.953691 259.05055 224 270 235"></polyline>
+        </g>
+    </g>
+</svg>

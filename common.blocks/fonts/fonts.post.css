@@ -1,0 +1,17 @@
+.fonts {
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: var(--space-xxxl);
+    padding-bottom: var(--space-xxxl);
+    &_view {
+      &_museo {
+        background-color: #9F096C;
+      }
+      &_plex {
+        background-color: #054ADA;
+      }
+    }
+  }
+}

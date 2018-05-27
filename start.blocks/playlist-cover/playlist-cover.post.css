@@ -1,0 +1,16 @@
+.playlist-cover {
+	overflow: hidden;
+	&_size {
+		&_big {
+			border-radius: 12px;
+			box-shadow: 0 12px 24px 0 #B8CEE6;
+		}
+		&_small {
+			border-radius: 6px;
+		}
+	}
+
+	.image {
+		margin-bottom: -6px;
+	}
+}

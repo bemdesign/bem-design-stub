@@ -1,0 +1,14 @@
+.tariff { 
+	min-height: 456px;
+	box-sizing: border-box;
+	background: var(--color-bg-default);
+	&__sale {
+		line-height: 80px;
+		font-size: 80px;
+	}
+	&_view {
+		&_image {
+			background-image: url('cover.png');
+		}
+	}
+}

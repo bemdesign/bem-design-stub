@@ -1,0 +1,6 @@
+.icon-circle {
+  padding: var(--space-xs);
+  background-color: #027EFF;
+  background-size: 16px;
+  border-radius: 50%;
+}

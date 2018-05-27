@@ -1,6 +1,10 @@
 .article {
 	height: 460px;
-	background-color: black;
+	background: var(--color-bg-default);
 	display: block;
 	overflow: hidden;
+	transition-duration: 500ms;
+	&:hover {
+		background: rgb(0, 123, 255);
+	}
 }

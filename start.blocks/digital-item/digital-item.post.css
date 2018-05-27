@@ -1,0 +1,10 @@
+.digital-item {
+	min-height: 456px;
+
+	&__wrap {
+		width: 100%;
+	}
+	&__info {
+		background: var(--color-bg-default);
+	}
+}

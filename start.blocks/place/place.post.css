@@ -1,3 +1,32 @@
 .place {
-
+	position: relative;
+	min-height: 456px;
+	box-sizing: border-box;
+	&__type {
+		opacity: 0.7;
+	}
+	&__date {
+		height: 80px;
+		width: 80px;
+		background: #449FFF; /* */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	&__description {
+		padding-top: 96px !important;
+		background: var(--color-bg-default);
+	}
+	&__feedback {
+		background: var(--color-bg-default);
+	}
+	&__info {
+		background: var(--color-bg-default);
+	}
+	&__action {
+		background: var(--color-bg-default);
+	}
 }

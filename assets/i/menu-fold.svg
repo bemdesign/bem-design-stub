@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="240" viewBox="0 0 56 240">
+  <defs>
+    <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop stop-color="#383838" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#2C2C2C" stop-opacity=".409" offset="30.391%"/>
+      <stop stop-color="#292929" stop-opacity=".517" offset="73.699%"/>
+      <stop stop-color="#1A1A1A" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="56" height="240" fill="#1A1A1A"/>
+    <g transform="translate(16 181)">
+      <polygon points="0 0 24 0 24 24 0 24"/>
+      <path fill="#FFFFFF" fill-rule="nonzero" d="M3.87,18.21 L3.87,9.18 L0.68,16.88 L3.87,18.21 Z M22.79,15.78 L16.31,0.14 L5.26,4.71 L11.74,20.35 L22.79,15.78 Z M7.88,6.75 C7.33,6.75 6.88,6.3 6.88,5.75 C6.88,5.2 7.33,4.75 7.88,4.75 C8.43,4.75 8.88,5.2 8.88,5.75 C8.88,6.3 8.43,6.75 7.88,6.75 Z M5.88,19.75 L9.33,19.75 L5.88,11.41 L5.88,19.75 Z" transform="translate(0 2)"/>
+    </g>
+    <rect width="56" height="50" y="190" fill="url(#a)"/>
+    <g transform="translate(16 131)">
+      <polygon points="0 0 24 0 24 24 0 24"/>
+      <path fill="#FFFFFF" fill-rule="nonzero" d="M4,10.18 L4,14.18 L11,18 L18,14.18 L18,10.18 L11,14 L4,10.18 Z M11,0 L0,6 L11,12 L20,7.09 L20,14 L22,14 L22,6 L11,0 Z" transform="translate(1 3)"/>
+    </g>
+    <g transform="translate(16 20)">
+      <polygon points="0 0 24 0 24 24 0 24"/>
+      <path fill="#FFFFFF" fill-rule="nonzero" d="M0,12 L18,12 L18,10 L0,10 L0,12 Z M0,7 L18,7 L18,5 L0,5 L0,7 Z M0,0 L0,2 L18,2 L18,0 L0,0 Z" transform="translate(3 6)"/>
+    </g>
+    <path fill="#FFFFFF" fill-rule="nonzero" d="M16,0 L0,0 L0,20 L16,20 L16,0 Z M2,2 L7,2 L7,10 L4.5,8.5 L2,10 L2,2 Z" transform="translate(20 83)"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+.menu {
+	&__view {
+		height: 240px;
+		background: var(--color-bg-ghost);
+		margin-bottom: var(--space-xs);
+	}
+	&__menu-image {
+		height: 240px;
+		background: #1a1a1a;
+		&_size {
+			&_unfold {
+				width: var(--menu-unfold);
+			}
+			&_fold {
+				width: var(--menu-fold);
+			}
+		}
+	}
+}
+

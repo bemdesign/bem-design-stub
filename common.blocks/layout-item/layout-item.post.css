@@ -1,7 +1,11 @@
 .layout-item {
-   margin-bottom: $space-xxxl;
+  &__name {
+    display: flex;
+  }
   &__view {
-    margin-bottom: $space-l;
-    background-repeat: no-repeat;
+    margin-bottom: var(--space-s);
+  }
+  .image {
+    width: 100%;
   }
 }

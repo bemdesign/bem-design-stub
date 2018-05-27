@@ -1,0 +1,19 @@
+.feed {
+	min-height: 456px;
+	box-sizing: border-box;
+	&__item {
+		background-color: var(--color-bg-default);
+	}
+
+	&__header {
+
+		&_align {
+			&_center {
+				align-items: center;
+			}
+			&_baseline {
+				align-items: baseline;
+			}
+		}
+	}
+}

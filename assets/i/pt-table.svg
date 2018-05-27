@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="460px" height="460px" viewBox="0 0 460 460" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>pt-table</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="pt-table" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, 55.000000)">
+            <polygon id="Rectangle-7-Copy" fill="#000000" opacity="0.100000001" points="0 26 460 110 358.678414 380 91.1894273 368"></polygon>
+            <polygon id="Rectangle-8-Copy-2" fill="#000000" points="28 59 422 59 422 313 28 333"></polygon>
+            <path d="M50,103 L50,287 L86,287 L86,103 L50,103 Z" id="Rectangle-3-Copy-22" stroke="#FFFFFF" stroke-width="4"></path>
+            <path d="M110,103 L110,287 L166,287 L166,103 L110,103 Z" id="Rectangle-3-Copy-53" stroke="#FFFFFF" stroke-width="4"></path>
+            <polygon id="Rectangle-3-Copy-54" fill="#0070F0" points="362 101 402 101 402 289 362 289"></polygon>
+            <path d="M190,103 L190,287 L340,287 L340,103 L190,103 Z" id="Rectangle-3-Copy-55" stroke="#FFFFFF" stroke-width="4"></path>
+            <polygon id="Rectangle-Copy-10" stroke="#000000" stroke-width="4" fill="#FFFFFF" points="50 10 441 0 441 87 50 77"></polygon>
+            <polygon id="Triangle-3-Copy" fill="#1373ED" points="89 24 112 63 66 63"></polygon>
+            <path d="M127,35 L403,35" id="Path-2-Copy-5" stroke="#000000" stroke-width="4" fill="#000000"></path>
+            <path d="M127,52 L322,52" id="Path-2-Copy-6" stroke="#000000" stroke-width="4" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

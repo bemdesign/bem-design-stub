@@ -1,6 +1,5 @@
 .unit {
 	height: 456px; 
-	background: var(--color-inverse);
 	padding: var(--space-xl);
 	display: flex;
 	justify-content: center;
